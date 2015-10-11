@@ -15,27 +15,27 @@ import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 /**
- * blancoAntTask‚ª—˜—p‚·‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğ’~‚¦‚Ü‚·B
+ * blancoAntTaskãŒåˆ©ç”¨ã™ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’è“„ãˆã¾ã™ã€‚
  *
- * ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`: [BlancoAntTask]B<BR>
- * ‚±‚ÌƒNƒ‰ƒX‚ÍƒŠƒ\[ƒXƒoƒ“ƒhƒ‹’è‹`‘‚©‚ç©“®¶¬‚³‚ê‚½ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒNƒ‰ƒX‚Å‚·B<BR>
- * Šù’m‚ÌƒƒP[ƒ‹<BR>
+ * ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«å®šç¾©: [BlancoAntTask]ã€‚<BR>
+ * ã“ã®ã‚¯ãƒ©ã‚¹ã¯ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«å®šç¾©æ›¸ã‹ã‚‰è‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚¯ãƒ©ã‚¹ã§ã™ã€‚<BR>
+ * æ—¢çŸ¥ã®ãƒ­ã‚±ãƒ¼ãƒ«<BR>
  * <UL>
  * <LI>ja
  * </UL>
  */
 public class BlancoAntTaskResourceBundle {
     /**
-     * ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒIƒuƒWƒFƒNƒgB
+     * ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      *
-     * “à•”“I‚ÉÀÛ‚É“ü—Í‚ğs‚¤ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğ‹L‰¯‚µ‚Ü‚·B
+     * å†…éƒ¨çš„ã«å®Ÿéš›ã«å…¥åŠ›ã‚’è¡Œã†ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’è¨˜æ†¶ã—ã¾ã™ã€‚
      */
     private ResourceBundle fResourceBundle;
 
     /**
-     * BlancoAntTaskResourceBundleƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^B
+     * BlancoAntTaskResourceBundleã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€‚
      *
-     * Šî’ê–¼[BlancoAntTask]AƒfƒtƒHƒ‹ƒg‚ÌƒƒP[ƒ‹AŒÄ‚Ño‚µ‘¤‚ÌƒNƒ‰ƒXƒ[ƒ_‚ğg—p‚µ‚ÄAƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğæ“¾‚µ‚Ü‚·B
+     * åŸºåº•å[BlancoAntTask]ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ­ã‚±ãƒ¼ãƒ«ã€å‘¼ã³å‡ºã—å´ã®ã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã‚’ä½¿ç”¨ã—ã¦ã€ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’å–å¾—ã—ã¾ã™ã€‚
      */
     public BlancoAntTaskResourceBundle() {
         try {
@@ -45,11 +45,11 @@ public class BlancoAntTaskResourceBundle {
     }
 
     /**
-     * BlancoAntTaskResourceBundleƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^B
+     * BlancoAntTaskResourceBundleã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€‚
      *
-     * Šî’ê–¼[BlancoAntTask]Aw’è‚³‚ê‚½ƒƒP[ƒ‹AŒÄ‚Ño‚µ‘¤‚ÌƒNƒ‰ƒXƒ[ƒ_‚ğg—p‚µ‚ÄAƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğæ“¾‚µ‚Ü‚·B
+     * åŸºåº•å[BlancoAntTask]ã€æŒ‡å®šã•ã‚ŒãŸãƒ­ã‚±ãƒ¼ãƒ«ã€å‘¼ã³å‡ºã—å´ã®ã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã‚’ä½¿ç”¨ã—ã¦ã€ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * @param locale ƒƒP[ƒ‹‚Ìw’è
+     * @param locale ãƒ­ã‚±ãƒ¼ãƒ«ã®æŒ‡å®š
      */
     public BlancoAntTaskResourceBundle(final Locale locale) {
         try {
@@ -59,12 +59,12 @@ public class BlancoAntTaskResourceBundle {
     }
 
     /**
-     * BlancoAntTaskResourceBundleƒNƒ‰ƒX‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^B
+     * BlancoAntTaskResourceBundleã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€‚
      *
-     * Šî’ê–¼[BlancoAntTask]Aw’è‚³‚ê‚½ƒƒP[ƒ‹Aw’è‚³‚ê‚½ƒNƒ‰ƒXƒ[ƒ_‚ğg—p‚µ‚ÄAƒŠƒ\[ƒXƒoƒ“ƒhƒ‹‚ğæ“¾‚µ‚Ü‚·B
+     * åŸºåº•å[BlancoAntTask]ã€æŒ‡å®šã•ã‚ŒãŸãƒ­ã‚±ãƒ¼ãƒ«ã€æŒ‡å®šã•ã‚ŒãŸã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã‚’ä½¿ç”¨ã—ã¦ã€ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * @param locale ƒƒP[ƒ‹‚Ìw’è
-     * @param loader ƒNƒ‰ƒXƒ[ƒ_‚Ìw’è
+     * @param locale ãƒ­ã‚±ãƒ¼ãƒ«ã®æŒ‡å®š
+     * @param loader ã‚¯ãƒ©ã‚¹ãƒ­ãƒ¼ãƒ€ã®æŒ‡å®š
      */
     public BlancoAntTaskResourceBundle(final Locale locale, final ClassLoader loader) {
         try {
@@ -74,9 +74,9 @@ public class BlancoAntTaskResourceBundle {
     }
 
     /**
-     * “à•”“I‚É•Û‚µ‚Ä‚¢‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒIƒuƒWƒFƒNƒg‚ğæ“¾‚µ‚Ü‚·B
+     * å†…éƒ¨çš„ã«ä¿æŒã—ã¦ã„ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * @return “à•”“I‚É•Û‚µ‚Ä‚¢‚éƒŠƒ\[ƒXƒoƒ“ƒhƒ‹ƒIƒuƒWƒFƒNƒgB
+     * @return å†…éƒ¨çš„ã«ä¿æŒã—ã¦ã„ã‚‹ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      */
     public ResourceBundle getResourceBundle() {
         return fResourceBundle;
@@ -85,74 +85,74 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METAFILE_DISPLAYNAME]
      *
-     * [AntTask’è‹`‘] (ja)<br>
+     * [AntTaskå®šç¾©æ›¸] (ja)<br>
      *
-     * @return key[METAFILE_DISPLAYNAME]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METAFILE_DISPLAYNAME]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMetafileDisplayname() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "AntTask’è‹`‘";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "AntTaskå®šç¾©æ›¸";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METAFILE_DISPLAYNAME");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[ITEM_NO]
      *
-     * [€–Ú”Ô†] (ja)<br>
+     * [é …ç›®ç•ªå·] (ja)<br>
      *
-     * @return key[ITEM_NO]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[ITEM_NO]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getItemNo() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "€–Ú”Ô†";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "é …ç›®ç•ªå·";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("ITEM_NO");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[ITEM_REQUIRED]
      *
-     * [•K{€–Ú] (ja)<br>
+     * [å¿…é ˆé …ç›®] (ja)<br>
      *
-     * @return key[ITEM_REQUIRED]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[ITEM_REQUIRED]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getItemRequired() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "•K{€–Ú";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "å¿…é ˆé …ç›®";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("ITEM_REQUIRED");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[CLASSCOMMENT.01]
      *
-     * [Apache Antƒ^ƒXƒN [{0}]‚ÌƒNƒ‰ƒXB] (ja)<br>
+     * [Apache Antã‚¿ã‚¹ã‚¯ [{0}]ã®ã‚¯ãƒ©ã‚¹ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[CLASSCOMMENT.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[CLASSCOMMENT.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getClasscomment01(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Apache Antƒ^ƒXƒN [{0}]‚ÌƒNƒ‰ƒXB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Apache Antã‚¿ã‚¹ã‚¯ [{0}]ã®ã‚¯ãƒ©ã‚¹ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("CLASSCOMMENT.01");
@@ -161,7 +161,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -169,35 +169,35 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[CLASSCOMMENT.02]
      *
-     * [‚±‚ÌƒNƒ‰ƒX‚Å‚ÍAApache Antƒ^ƒXƒN‚Åˆê”Ê“I‚É•K—v‚Èƒ`ƒFƒbƒN‚È‚Ç‚ÌƒR[ƒfƒBƒ“ƒO‚ğŒ¨‘ã‚í‚è‚µ‚Ü‚·B] (ja)<br>
+     * [ã“ã®ã‚¯ãƒ©ã‚¹ã§ã¯ã€Apache Antã‚¿ã‚¹ã‚¯ã§ä¸€èˆ¬çš„ã«å¿…è¦ãªãƒã‚§ãƒƒã‚¯ãªã©ã®ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚’è‚©ä»£ã‚ã‚Šã—ã¾ã™ã€‚] (ja)<br>
      *
-     * @return key[CLASSCOMMENT.02]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[CLASSCOMMENT.02]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getClasscomment02() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "‚±‚ÌƒNƒ‰ƒX‚Å‚ÍAApache Antƒ^ƒXƒN‚Åˆê”Ê“I‚É•K—v‚Èƒ`ƒFƒbƒN‚È‚Ç‚ÌƒR[ƒfƒBƒ“ƒO‚ğŒ¨‘ã‚í‚è‚µ‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã“ã®ã‚¯ãƒ©ã‚¹ã§ã¯ã€Apache Antã‚¿ã‚¹ã‚¯ã§ä¸€èˆ¬çš„ã«å¿…è¦ãªãƒã‚§ãƒƒã‚¯ãªã©ã®ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚’è‚©ä»£ã‚ã‚Šã—ã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("CLASSCOMMENT.02");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[CLASSCOMMENT.03]
      *
-     * [ÀÛ‚Ìˆ—‚Í ƒpƒbƒP[ƒW[{0}]‚É{1}ƒNƒ‰ƒX‚ğì¬‚µ‚Ä‹Lq‚µ‚Ä‚­‚¾‚³‚¢B&lt;br&gt;] (ja)<br>
+     * [å®Ÿéš›ã®å‡¦ç†ã¯ ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸[{0}]ã«{1}ã‚¯ãƒ©ã‚¹ã‚’ä½œæˆã—ã¦è¨˜è¿°ã—ã¦ãã ã•ã„ã€‚&lt;br&gt;] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[CLASSCOMMENT.03]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[CLASSCOMMENT.03]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getClasscomment03(final String arg0, final String arg1) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ÀÛ‚Ìˆ—‚Í ƒpƒbƒP[ƒW[{0}]‚É{1}ƒNƒ‰ƒX‚ğì¬‚µ‚Ä‹Lq‚µ‚Ä‚­‚¾‚³‚¢B<br>";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "å®Ÿéš›ã®å‡¦ç†ã¯ ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸[{0}]ã«{1}ã‚¯ãƒ©ã‚¹ã‚’ä½œæˆã—ã¦è¨˜è¿°ã—ã¦ãã ã•ã„ã€‚<br>";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("CLASSCOMMENT.03");
@@ -206,7 +206,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1}, strbuf, null);
         return strbuf.toString();
     }
@@ -214,34 +214,34 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[CLASSCOMMENT.04]
      *
-     * [Antƒ^ƒXƒN‚Ö‚Ì‘g‚İ‚İ—á&lt;br&gt;] (ja)<br>
+     * [Antã‚¿ã‚¹ã‚¯ã¸ã®çµ„ã¿è¾¼ã¿ä¾‹&lt;br&gt;] (ja)<br>
      *
-     * @return key[CLASSCOMMENT.04]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[CLASSCOMMENT.04]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getClasscomment04() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Antƒ^ƒXƒN‚Ö‚Ì‘g‚İ‚İ—á<br>";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Antã‚¿ã‚¹ã‚¯ã¸ã®çµ„ã¿è¾¼ã¿ä¾‹<br>";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("CLASSCOMMENT.04");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[FIELD.COMMENT.01]
      *
-     * [Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒgB] (ja)<br>
+     * [Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[FIELD.COMMENT.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[FIELD.COMMENT.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getFieldComment01(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒgB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("FIELD.COMMENT.01");
@@ -250,7 +250,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -258,14 +258,14 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[FIELD.COMMENT.02]
      *
-     * [ƒtƒB[ƒ‹ƒh [{0}] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B] (ja)<br>
+     * [ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [{0}] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[FIELD.COMMENT.02]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[FIELD.COMMENT.02]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getFieldComment02(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒtƒB[ƒ‹ƒh [{0}] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [{0}] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("FIELD.COMMENT.02");
@@ -274,7 +274,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -282,34 +282,34 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[FIELD.COMMENT.VERBOSE]
      *
-     * [verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B] (ja)<br>
+     * [verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚] (ja)<br>
      *
-     * @return key[FIELD.COMMENT.VERBOSE]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[FIELD.COMMENT.VERBOSE]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getFieldCommentVerbose() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("FIELD.COMMENT.VERBOSE");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.SET.COMMENT.01]
      *
-     * [Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB] (ja)<br>
+     * [Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[METHOD.SET.COMMENT.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[METHOD.SET.COMMENT.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodSetComment01(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.SET.COMMENT.01");
@@ -318,7 +318,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -326,34 +326,34 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METHOD.SET.COMMENT.02]
      *
-     * [ƒZƒbƒg‚µ‚½‚¢’l] (ja)<br>
+     * [ã‚»ãƒƒãƒˆã—ãŸã„å€¤] (ja)<br>
      *
-     * @return key[METHOD.SET.COMMENT.02]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.SET.COMMENT.02]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodSetComment02() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒZƒbƒg‚µ‚½‚¢’l";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã‚»ãƒƒãƒˆã—ãŸã„å€¤";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.SET.COMMENT.02");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.SET.LINE.01]
      *
-     * [Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B] (ja)<br>
+     * [Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[METHOD.SET.LINE.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[METHOD.SET.LINE.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodSetLine01(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.SET.LINE.01");
@@ -362,7 +362,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -370,14 +370,14 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METHOD.GET.COMMENT.01]
      *
-     * [Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB] (ja)<br>
+     * [Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[METHOD.GET.COMMENT.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[METHOD.GET.COMMENT.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodGetComment01(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Antƒ^ƒXƒN‚Ì[{0}]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Antã‚¿ã‚¹ã‚¯ã®[{0}]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.GET.COMMENT.01");
@@ -386,7 +386,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -394,34 +394,34 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METHOD.GET.COMMENT.11]
      *
-     * [•K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B&lt;br&gt;] (ja)<br>
+     * [å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚&lt;br&gt;] (ja)<br>
      *
-     * @return key[METHOD.GET.COMMENT.11]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.GET.COMMENT.11]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodGetComment11() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "•K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B<br>";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚<br>";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.GET.COMMENT.11");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.GET.COMMENT.12]
      *
-     * [ƒfƒtƒHƒ‹ƒg’l[{0}]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B&lt;br&gt;] (ja)<br>
+     * [ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[{0}]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚&lt;br&gt;] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[METHOD.GET.COMMENT.12]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[METHOD.GET.COMMENT.12]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodGetComment12(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒfƒtƒHƒ‹ƒg’l[{0}]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B<br>";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[{0}]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚<br>";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.GET.COMMENT.12");
@@ -430,7 +430,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -438,75 +438,75 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METHOD.GET.COMMENT.13]
      *
-     * [‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l] (ja)<br>
+     * [ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤] (ja)<br>
      *
-     * @return key[METHOD.GET.COMMENT.13]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.GET.COMMENT.13]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodGetComment13() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.GET.COMMENT.13");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.COMMENT.01]
      *
-     * [Antƒ^ƒXƒN‚ÌƒƒCƒ“ˆ—BApache Ant‚©‚ç ‚±‚Ìƒƒ\ƒbƒh‚ªŒÄ‚Ño‚³‚ê‚Ü‚·B] (ja)<br>
+     * [Antã‚¿ã‚¹ã‚¯ã®ãƒ¡ã‚¤ãƒ³å‡¦ç†ã€‚Apache Antã‹ã‚‰ ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ãŒå‘¼ã³å‡ºã•ã‚Œã¾ã™ã€‚] (ja)<br>
      *
-     * @return key[METHOD.EXECUTE.COMMENT.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.EXECUTE.COMMENT.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteComment01() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "Antƒ^ƒXƒN‚ÌƒƒCƒ“ˆ—BApache Ant‚©‚ç ‚±‚Ìƒƒ\ƒbƒh‚ªŒÄ‚Ño‚³‚ê‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "Antã‚¿ã‚¹ã‚¯ã®ãƒ¡ã‚¤ãƒ³å‡¦ç†ã€‚Apache Antã‹ã‚‰ ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ãŒå‘¼ã³å‡ºã•ã‚Œã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.COMMENT.01");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.COMMENT.02]
      *
-     * [ƒ^ƒXƒN‚Æ‚µ‚Ä‚Ì—áŠO‚ª”­¶‚µ‚½ê‡B] (ja)<br>
+     * [ã‚¿ã‚¹ã‚¯ã¨ã—ã¦ã®ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆã€‚] (ja)<br>
      *
-     * @return key[METHOD.EXECUTE.COMMENT.02]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.EXECUTE.COMMENT.02]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteComment02() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒ^ƒXƒN‚Æ‚µ‚Ä‚Ì—áŠO‚ª”­¶‚µ‚½ê‡B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã‚¿ã‚¹ã‚¯ã¨ã—ã¦ã®ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.COMMENT.02");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.LINE.01]
      *
-     * [// {0}ƒAƒgƒŠƒrƒ…[ƒg[{1}]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B] (ja)<br>
+     * [// {0}ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[{1}]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @param arg1 ’uŠ·•¶š—ñ{1}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[METHOD.EXECUTE.LINE.01]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @param arg1 ç½®æ›æ–‡å­—åˆ—{1}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[METHOD.EXECUTE.LINE.01]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteLine01(final String arg0, final String arg1) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "// {0}ƒAƒgƒŠƒrƒ…[ƒg[{1}]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "// {0}ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[{1}]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.LINE.01");
@@ -515,7 +515,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0, arg1}, strbuf, null);
         return strbuf.toString();
     }
@@ -523,14 +523,14 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.LINE.02]
      *
-     * [•K{ƒAƒgƒŠƒrƒ…[ƒg[{0}]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B] (ja)<br>
+     * [å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[{0}]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚] (ja)<br>
      *
-     * @param arg0 ’uŠ·•¶š—ñ{0}‚ğ’uŠ·‚·‚é’lBjava.lang.StringŒ^‚ğ—^‚¦‚Ä‚­‚¾‚³‚¢B
-     * @return key[METHOD.EXECUTE.LINE.02]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @param arg0 ç½®æ›æ–‡å­—åˆ—{0}ã‚’ç½®æ›ã™ã‚‹å€¤ã€‚java.lang.Stringå‹ã‚’ä¸ãˆã¦ãã ã•ã„ã€‚
+     * @return key[METHOD.EXECUTE.LINE.02]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteLine02(final String arg0) {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "•K{ƒAƒgƒŠƒrƒ…[ƒg[{0}]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[{0}]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.LINE.02");
@@ -539,7 +539,7 @@ public class BlancoAntTaskResourceBundle {
         }
         final MessageFormat messageFormat = new MessageFormat(strFormat);
         final StringBuffer strbuf = new StringBuffer();
-        // —^‚¦‚ç‚ê‚½ˆø”‚ğŒ³‚É’uŠ·•¶š—ñ‚ğ’u‚«Š·‚¦‚Ü‚·B
+        // ä¸ãˆã‚‰ã‚ŒãŸå¼•æ•°ã‚’å…ƒã«ç½®æ›æ–‡å­—åˆ—ã‚’ç½®ãæ›ãˆã¾ã™ã€‚
         messageFormat.format(new Object[] {arg0}, strbuf, null);
         return strbuf.toString();
     }
@@ -547,60 +547,60 @@ public class BlancoAntTaskResourceBundle {
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.LINE.04]
      *
-     * [// ÀÛ‚ÌAntƒ^ƒXƒN‚Ìåˆ—‚ğÀs‚µ‚Ü‚·B] (ja)<br>
+     * [// å®Ÿéš›ã®Antã‚¿ã‚¹ã‚¯ã®ä¸»å‡¦ç†ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚] (ja)<br>
      *
-     * @return key[METHOD.EXECUTE.LINE.04]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.EXECUTE.LINE.04]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteLine04() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "// ÀÛ‚ÌAntƒ^ƒXƒN‚Ìåˆ—‚ğÀs‚µ‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "// å®Ÿéš›ã®Antã‚¿ã‚¹ã‚¯ã®ä¸»å‡¦ç†ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.LINE.04");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.LINE.05]
      *
-     * [ƒ^ƒXƒN‚ğˆ—’†‚É—áŠO‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—‚ğ’†’f‚µ‚Ü‚·B] (ja)<br>
+     * [ã‚¿ã‚¹ã‚¯ã‚’å‡¦ç†ä¸­ã«ä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚] (ja)<br>
      *
-     * @return key[METHOD.EXECUTE.LINE.05]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.EXECUTE.LINE.05]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteLine05() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒ^ƒXƒN‚ğˆ—’†‚É—áŠO‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—‚ğ’†’f‚µ‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã‚¿ã‚¹ã‚¯ã‚’å‡¦ç†ä¸­ã«ä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.LINE.05");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 
     /**
      * bundle[BlancoAntTask], key[METHOD.EXECUTE.LINE.06]
      *
-     * [ƒ^ƒXƒN‚ğˆ—’†‚ÉƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—‚ğ’†’f‚µ‚Ü‚·B] (ja)<br>
+     * [ã‚¿ã‚¹ã‚¯ã‚’å‡¦ç†ä¸­ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚] (ja)<br>
      *
-     * @return key[METHOD.EXECUTE.LINE.06]‚É‘Î‰‚·‚é’lBŠO•”‚©‚ç“Ç‚İ‚İ‚ª‚Å‚«‚È‚¢ê‡‚É‚ÍA’è‹`‘‚Ì’l‚ğ–ß‚µ‚Ü‚·B•K‚¸nullˆÈŠO‚Ì’l‚ª–ß‚è‚Ü‚·B
+     * @return key[METHOD.EXECUTE.LINE.06]ã«å¯¾å¿œã™ã‚‹å€¤ã€‚å¤–éƒ¨ã‹ã‚‰èª­ã¿è¾¼ã¿ãŒã§ããªã„å ´åˆã«ã¯ã€å®šç¾©æ›¸ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚å¿…ãšnullä»¥å¤–ã®å€¤ãŒæˆ»ã‚Šã¾ã™ã€‚
      */
     public String getMethodExecuteLine06() {
-        // ‰Šú’l‚Æ‚µ‚Ä’è‹`‘‚Ì’l‚ğ—˜—p‚µ‚Ü‚·B
-        String strFormat = "ƒ^ƒXƒN‚ğˆ—’†‚ÉƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—‚ğ’†’f‚µ‚Ü‚·B";
+        // åˆæœŸå€¤ã¨ã—ã¦å®šç¾©æ›¸ã®å€¤ã‚’åˆ©ç”¨ã—ã¾ã™ã€‚
+        String strFormat = "ã‚¿ã‚¹ã‚¯ã‚’å‡¦ç†ä¸­ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚";
         try {
             if (fResourceBundle != null) {
                 strFormat = fResourceBundle.getString("METHOD.EXECUTE.LINE.06");
             }
         } catch (MissingResourceException ex) {
         }
-        // ’uŠ·•¶š—ñ‚Í‚Ğ‚Æ‚Â‚à‚ ‚è‚Ü‚¹‚ñB
+        // ç½®æ›æ–‡å­—åˆ—ã¯ã²ã¨ã¤ã‚‚ã‚ã‚Šã¾ã›ã‚“ã€‚
         return strFormat;
     }
 }

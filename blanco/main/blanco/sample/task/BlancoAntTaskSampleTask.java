@@ -17,13 +17,13 @@ import org.apache.tools.ant.Task;
 import blanco.sample.task.valueobject.BlancoAntTaskSampleProcessInput;
 
 /**
- * Apache Antƒ^ƒXƒN [BlancoAntTaskSample]‚ÌƒNƒ‰ƒXB
+ * Apache Antã‚¿ã‚¹ã‚¯ [BlancoAntTaskSample]ã®ã‚¯ãƒ©ã‚¹ã€‚
  *
- * ‚±‚ÌƒNƒ‰ƒX‚Í’P‚ÉƒTƒ“ƒvƒ‹‚Å‚·BÀÛ‚Ì“®ì‚É‚Í—˜—p‚³‚ê‚Ü‚¹‚ñB<br>
- * ‚±‚ÌƒNƒ‰ƒX‚Å‚ÍAApache Antƒ^ƒXƒN‚Åˆê”Ê“I‚É•K—v‚Èƒ`ƒFƒbƒN‚È‚Ç‚ÌƒR[ƒfƒBƒ“ƒO‚ğŒ¨‘ã‚í‚è‚µ‚Ü‚·B
- * ÀÛ‚Ìˆ—‚Í ƒpƒbƒP[ƒW[blanco.sample.task]‚ÉBlancoAntTaskSampleBatchProcessƒNƒ‰ƒX‚ğì¬‚µ‚Ä‹Lq‚µ‚Ä‚­‚¾‚³‚¢B<br>
+ * ã“ã®ã‚¯ãƒ©ã‚¹ã¯å˜ã«ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚å®Ÿéš›ã®å‹•ä½œã«ã¯åˆ©ç”¨ã•ã‚Œã¾ã›ã‚“ã€‚<br>
+ * ã“ã®ã‚¯ãƒ©ã‚¹ã§ã¯ã€Apache Antã‚¿ã‚¹ã‚¯ã§ä¸€èˆ¬çš„ã«å¿…è¦ãªãƒã‚§ãƒƒã‚¯ãªã©ã®ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚’è‚©ä»£ã‚ã‚Šã—ã¾ã™ã€‚
+ * å®Ÿéš›ã®å‡¦ç†ã¯ ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸[blanco.sample.task]ã«BlancoAntTaskSampleBatchProcessã‚¯ãƒ©ã‚¹ã‚’ä½œæˆã—ã¦è¨˜è¿°ã—ã¦ãã ã•ã„ã€‚<br>
  * <br>
- * Antƒ^ƒXƒN‚Ö‚Ì‘g‚İ‚İ—á<br>
+ * Antã‚¿ã‚¹ã‚¯ã¸ã®çµ„ã¿è¾¼ã¿ä¾‹<br>
  * <pre>
  * &lt;taskdef name=&quot;blancoanttasksample&quot; classname=&quot;blanco.sample.task.BlancoAntTaskSampleTask">
  *     &lt;classpath&gt;
@@ -35,85 +35,85 @@ import blanco.sample.task.valueobject.BlancoAntTaskSampleProcessInput;
  */
 public class BlancoAntTaskSampleTask extends Task {
     /**
-     * ‚±‚ÌƒNƒ‰ƒX‚Í’P‚ÉƒTƒ“ƒvƒ‹‚Å‚·BÀÛ‚Ì“®ì‚É‚Í—˜—p‚³‚ê‚Ü‚¹‚ñB
+     * ã“ã®ã‚¯ãƒ©ã‚¹ã¯å˜ã«ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚å®Ÿéš›ã®å‹•ä½œã«ã¯åˆ©ç”¨ã•ã‚Œã¾ã›ã‚“ã€‚
      */
     protected BlancoAntTaskSampleProcessInput fInput = new BlancoAntTaskSampleProcessInput();
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr1] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr1] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr1Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr2] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr2] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr2Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr3] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr3] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr3Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr4] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr4] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr4Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr5] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr5] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr5Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr6] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr6] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr6Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr7] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr7] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr7Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr8] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr8] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr8Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr9] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr9] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr9Processed = false;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr10] ‚É’l‚ªƒZƒbƒg‚³‚ê‚½‚©‚Ç‚¤‚©B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr10] ã«å€¤ãŒã‚»ãƒƒãƒˆã•ã‚ŒãŸã‹ã©ã†ã‹ã€‚
      */
     protected boolean fIsFieldAttr10Processed = false;
 
     /**
-     * verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B
+     * verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚
      *
-     * @param arg verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B
+     * @param arg verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚
      */
     public void setVerbose(final boolean arg) {
         fInput.setVerbose(arg);
     }
 
     /**
-     * verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B
+     * verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚
      *
-     * @return verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B
+     * @return verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚
      */
     public boolean getVerbose() {
         return fInput.getVerbose();
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr1]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr1]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 1<br>
-     * •¶š—ñi•K{j<br>
+     * é …ç›®ç•ªå·: 1<br>
+     * æ–‡å­—åˆ—ï¼ˆå¿…é ˆï¼‰<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr1(final String arg) {
         fInput.setAttr1(arg);
@@ -121,25 +121,25 @@ public class BlancoAntTaskSampleTask extends Task {
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr1]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr1]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 1<br>
-     * •¶š—ñi•K{j<br>
-     * •K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B<br>
+     * é …ç›®ç•ªå·: 1<br>
+     * æ–‡å­—åˆ—ï¼ˆå¿…é ˆï¼‰<br>
+     * å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr1() {
         return fInput.getAttr1();
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr2]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr2]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 2<br>
+     * é …ç›®ç•ªå·: 2<br>
      * blanco:string<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr2(final String arg) {
         fInput.setAttr2(arg);
@@ -147,205 +147,205 @@ public class BlancoAntTaskSampleTask extends Task {
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr2]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr2]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 2<br>
+     * é …ç›®ç•ªå·: 2<br>
      * blanco:string<br>
-     * ƒfƒtƒHƒ‹ƒg’l[ƒfƒtƒHƒ‹ƒg]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B<br>
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr2() {
         return fInput.getAttr2();
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr3]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr3]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 3<br>
-     * ®”(int)(•K{)<br>
+     * é …ç›®ç•ªå·: 3<br>
+     * æ•´æ•°(int)(å¿…é ˆ)<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr3(final String arg) {
         try {
             fInput.setAttr3(Integer.parseInt(arg));
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Antƒ^ƒXƒN‚Ì[attr3]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B" + e.toString());
+            throw new IllegalArgumentException("Antã‚¿ã‚¹ã‚¯ã®[attr3]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚" + e.toString());
         }
         fIsFieldAttr3Processed = true;
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr3]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr3]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 3<br>
-     * ®”(int)(•K{)<br>
-     * •K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B<br>
+     * é …ç›®ç•ªå·: 3<br>
+     * æ•´æ•°(int)(å¿…é ˆ)<br>
+     * å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr3() {
         return String.valueOf(fInput.getAttr3());
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr4]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr4]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 4<br>
+     * é …ç›®ç•ªå·: 4<br>
      * blanco:int<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr4(final String arg) {
         try {
             fInput.setAttr4(Integer.parseInt(arg));
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Antƒ^ƒXƒN‚Ì[attr4]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B" + e.toString());
+            throw new IllegalArgumentException("Antã‚¿ã‚¹ã‚¯ã®[attr4]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚" + e.toString());
         }
         fIsFieldAttr4Processed = true;
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr4]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr4]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 4<br>
+     * é …ç›®ç•ªå·: 4<br>
      * blanco:int<br>
-     * ƒfƒtƒHƒ‹ƒg’l[10]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B<br>
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[10]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr4() {
         return String.valueOf(fInput.getAttr4());
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr5]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr5]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 5<br>
-     * ®”(long)(•K{)<br>
+     * é …ç›®ç•ªå·: 5<br>
+     * æ•´æ•°(long)(å¿…é ˆ)<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr5(final String arg) {
         try {
             fInput.setAttr5(Long.parseLong(arg));
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Antƒ^ƒXƒN‚Ì[attr5]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B" + e.toString());
+            throw new IllegalArgumentException("Antã‚¿ã‚¹ã‚¯ã®[attr5]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚" + e.toString());
         }
         fIsFieldAttr5Processed = true;
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr5]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr5]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 5<br>
-     * ®”(long)(•K{)<br>
-     * •K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B<br>
+     * é …ç›®ç•ªå·: 5<br>
+     * æ•´æ•°(long)(å¿…é ˆ)<br>
+     * å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr5() {
         return String.valueOf(fInput.getAttr5());
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr6]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr6]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 6<br>
+     * é …ç›®ç•ªå·: 6<br>
      * blanco:long<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr6(final String arg) {
         try {
             fInput.setAttr6(Long.parseLong(arg));
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Antƒ^ƒXƒN‚Ì[attr6]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B" + e.toString());
+            throw new IllegalArgumentException("Antã‚¿ã‚¹ã‚¯ã®[attr6]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚" + e.toString());
         }
         fIsFieldAttr6Processed = true;
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr6]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr6]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 6<br>
+     * é …ç›®ç•ªå·: 6<br>
      * blanco:long<br>
-     * ƒfƒtƒHƒ‹ƒg’l[100]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B<br>
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[100]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr6() {
         return String.valueOf(fInput.getAttr6());
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr7]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr7]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 7<br>
-     * ®”(decimal)(•K{)<br>
+     * é …ç›®ç•ªå·: 7<br>
+     * æ•´æ•°(decimal)(å¿…é ˆ)<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr7(final String arg) {
         try {
             fInput.setAttr7(new BigDecimal(arg));
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Antƒ^ƒXƒN‚Ì[attr7]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B" + e.toString());
+            throw new IllegalArgumentException("Antã‚¿ã‚¹ã‚¯ã®[attr7]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚" + e.toString());
         }
         fIsFieldAttr7Processed = true;
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr7]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr7]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 7<br>
-     * ®”(decimal)(•K{)<br>
-     * •K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B<br>
+     * é …ç›®ç•ªå·: 7<br>
+     * æ•´æ•°(decimal)(å¿…é ˆ)<br>
+     * å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr7() {
         return fInput.getAttr7().toString();
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr8]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr8]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 8<br>
-     * ®”(decimal)<br>
+     * é …ç›®ç•ªå·: 8<br>
+     * æ•´æ•°(decimal)<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr8(final String arg) {
         try {
             fInput.setAttr8(new BigDecimal(arg));
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Antƒ^ƒXƒN‚Ì[attr8]ƒAƒgƒŠƒrƒ…[ƒg‚É—^‚¦‚ç‚ê‚½’l‚Ì”’l‰ğÍ‚É¸”s‚µ‚Ü‚µ‚½B" + e.toString());
+            throw new IllegalArgumentException("Antã‚¿ã‚¹ã‚¯ã®[attr8]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã«ä¸ãˆã‚‰ã‚ŒãŸå€¤ã®æ•°å€¤è§£æã«å¤±æ•—ã—ã¾ã—ãŸã€‚" + e.toString());
         }
         fIsFieldAttr8Processed = true;
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr8]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr8]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 8<br>
-     * ®”(decimal)<br>
-     * ƒfƒtƒHƒ‹ƒg’l[123.456]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B<br>
+     * é …ç›®ç•ªå·: 8<br>
+     * æ•´æ•°(decimal)<br>
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[123.456]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public String getAttr8() {
         return fInput.getAttr8().toString();
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr9]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr9]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 9<br>
-     * ^‹U(•K{)<br>
+     * é …ç›®ç•ªå·: 9<br>
+     * çœŸå½(å¿…é ˆ)<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr9(final boolean arg) {
         fInput.setAttr9(arg);
@@ -353,25 +353,25 @@ public class BlancoAntTaskSampleTask extends Task {
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr9]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr9]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 9<br>
-     * ^‹U(•K{)<br>
-     * •K{ƒAƒgƒŠƒrƒ…[ƒg‚Å‚·BApache Antƒ^ƒXƒNã‚Å•K‚¸’l‚ªw’è‚³‚ê‚Ü‚·B<br>
+     * é …ç›®ç•ªå·: 9<br>
+     * çœŸå½(å¿…é ˆ)<br>
+     * å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã§ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§å¿…ãšå€¤ãŒæŒ‡å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public boolean getAttr9() {
         return fInput.getAttr9();
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr10]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒZƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr10]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚»ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 10<br>
+     * é …ç›®ç•ªå·: 10<br>
      * blanco:boolean<br>
      *
-     * @param arg ƒZƒbƒg‚µ‚½‚¢’l
+     * @param arg ã‚»ãƒƒãƒˆã—ãŸã„å€¤
      */
     public void setAttr10(final boolean arg) {
         fInput.setAttr10(arg);
@@ -379,46 +379,46 @@ public class BlancoAntTaskSampleTask extends Task {
     }
 
     /**
-     * Antƒ^ƒXƒN‚Ì[attr10]ƒAƒgƒŠƒrƒ…[ƒg‚ÌƒQƒbƒ^[ƒƒ\ƒbƒhB
+     * Antã‚¿ã‚¹ã‚¯ã®[attr10]ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®ã‚²ãƒƒã‚¿ãƒ¼ãƒ¡ã‚½ãƒƒãƒ‰ã€‚
      *
-     * €–Ú”Ô†: 10<br>
+     * é …ç›®ç•ªå·: 10<br>
      * blanco:boolean<br>
-     * ƒfƒtƒHƒ‹ƒg’l[true]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚·BApache Antƒ^ƒXƒNã‚ÅƒAƒgƒŠƒrƒ…[ƒg‚Ìw’è‚ª–³‚¢ê‡‚É‚ÍAƒfƒtƒHƒ‹ƒg’l‚ªİ’è‚³‚ê‚Ü‚·B<br>
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤[true]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚Apache Antã‚¿ã‚¹ã‚¯ä¸Šã§ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã®æŒ‡å®šãŒç„¡ã„å ´åˆã«ã¯ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ãŒè¨­å®šã•ã‚Œã¾ã™ã€‚<br>
      *
-     * @return ‚±‚ÌƒtƒB[ƒ‹ƒh‚Ì’l
+     * @return ã“ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®å€¤
      */
     public boolean getAttr10() {
         return fInput.getAttr10();
     }
 
     /**
-     * Antƒ^ƒXƒN‚ÌƒƒCƒ“ˆ—BApache Ant‚©‚ç ‚±‚Ìƒƒ\ƒbƒh‚ªŒÄ‚Ño‚³‚ê‚Ü‚·B
+     * Antã‚¿ã‚¹ã‚¯ã®ãƒ¡ã‚¤ãƒ³å‡¦ç†ã€‚Apache Antã‹ã‚‰ ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ãŒå‘¼ã³å‡ºã•ã‚Œã¾ã™ã€‚
      *
-     * @throws BuildException ƒ^ƒXƒN‚Æ‚µ‚Ä‚Ì—áŠO‚ª”­¶‚µ‚½ê‡B
+     * @throws BuildException ã‚¿ã‚¹ã‚¯ã¨ã—ã¦ã®ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆã€‚
      */
     @Override
     public final void execute() throws BuildException {
         System.out.println("BlancoAntTaskSampleTask begin.");
 
-        // €–Ú”Ô†[1]AƒAƒgƒŠƒrƒ…[ƒg[attr1]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B
+        // é …ç›®ç•ªå·[1]ã€ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr1]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚
         if (fIsFieldAttr1Processed == false) {
-            throw new BuildException("•K{ƒAƒgƒŠƒrƒ…[ƒg[attr1]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B");
+            throw new BuildException("å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr1]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚");
         }
-        // €–Ú”Ô†[3]AƒAƒgƒŠƒrƒ…[ƒg[attr3]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B
+        // é …ç›®ç•ªå·[3]ã€ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr3]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚
         if (fIsFieldAttr3Processed == false) {
-            throw new BuildException("•K{ƒAƒgƒŠƒrƒ…[ƒg[attr3]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B");
+            throw new BuildException("å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr3]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚");
         }
-        // €–Ú”Ô†[5]AƒAƒgƒŠƒrƒ…[ƒg[attr5]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B
+        // é …ç›®ç•ªå·[5]ã€ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr5]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚
         if (fIsFieldAttr5Processed == false) {
-            throw new BuildException("•K{ƒAƒgƒŠƒrƒ…[ƒg[attr5]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B");
+            throw new BuildException("å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr5]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚");
         }
-        // €–Ú”Ô†[7]AƒAƒgƒŠƒrƒ…[ƒg[attr7]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B
+        // é …ç›®ç•ªå·[7]ã€ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr7]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚
         if (fIsFieldAttr7Processed == false) {
-            throw new BuildException("•K{ƒAƒgƒŠƒrƒ…[ƒg[attr7]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B");
+            throw new BuildException("å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr7]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚");
         }
-        // €–Ú”Ô†[9]AƒAƒgƒŠƒrƒ…[ƒg[attr9]‚Í•K{“ü—Í‚Å‚·B“ü—Íƒ`ƒFƒbƒN‚ğs‚¢‚Ü‚·B
+        // é …ç›®ç•ªå·[9]ã€ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr9]ã¯å¿…é ˆå…¥åŠ›ã§ã™ã€‚å…¥åŠ›ãƒã‚§ãƒƒã‚¯ã‚’è¡Œã„ã¾ã™ã€‚
         if (fIsFieldAttr9Processed == false) {
-            throw new BuildException("•K{ƒAƒgƒŠƒrƒ…[ƒg[attr9]‚ªİ’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBˆ—‚ğ’†’f‚µ‚Ü‚·B");
+            throw new BuildException("å¿…é ˆã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆ[attr9]ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚");
         }
 
         if (getVerbose()) {
@@ -436,11 +436,11 @@ public class BlancoAntTaskSampleTask extends Task {
         }
 
         try {
-            // ÀÛ‚ÌAntƒ^ƒXƒN‚Ìåˆ—‚ğÀs‚µ‚Ü‚·B
-            // ‚±‚Ì‰ÓŠ‚ÅƒRƒ“ƒpƒCƒ‹ƒGƒ‰[‚ª”­¶‚·‚éê‡ABlancoAntTaskSampleProcessƒCƒ“ƒ^ƒtƒF[ƒX‚ğÀ‘•‚µ‚Ä blanco.sample.taskƒpƒbƒP[ƒW‚É BlancoAntTaskSampleProcessImplƒNƒ‰ƒX‚ğì¬‚·‚é‚±‚Æ‚É‚æ‚è‰ğŒˆ‚Å‚«‚éê‡‚ª‚ ‚è‚Ü‚·B
+            // å®Ÿéš›ã®Antã‚¿ã‚¹ã‚¯ã®ä¸»å‡¦ç†ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚
+            // ã“ã®ç®‡æ‰€ã§ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã™ã‚‹å ´åˆã€BlancoAntTaskSampleProcessã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ã‚’å®Ÿè£…ã—ã¦ blanco.sample.taskãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã« BlancoAntTaskSampleProcessImplã‚¯ãƒ©ã‚¹ã‚’ä½œæˆã™ã‚‹ã“ã¨ã«ã‚ˆã‚Šè§£æ±ºã§ãã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ã€‚
             final BlancoAntTaskSampleProcess proc = new BlancoAntTaskSampleProcessImpl();
             if (proc.execute(fInput) != BlancoAntTaskSampleBatchProcess.END_SUCCESS) {
-                throw new BuildException("ƒ^ƒXƒN‚ÍˆÙíI—¹‚µ‚Ü‚µ‚½B");
+                throw new BuildException("ã‚¿ã‚¹ã‚¯ã¯ç•°å¸¸çµ‚äº†ã—ã¾ã—ãŸã€‚");
             }
         } catch (IllegalArgumentException e) {
             if (getVerbose()) {
@@ -449,10 +449,10 @@ public class BlancoAntTaskSampleTask extends Task {
             throw new BuildException(e.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
-            throw new BuildException("ƒ^ƒXƒN‚ğˆ—’†‚É—áŠO‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—‚ğ’†’f‚µ‚Ü‚·B" + e.toString());
+            throw new BuildException("ã‚¿ã‚¹ã‚¯ã‚’å‡¦ç†ä¸­ã«ä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚" + e.toString());
         } catch (Error e) {
             e.printStackTrace();
-            throw new BuildException("ƒ^ƒXƒN‚ğˆ—’†‚ÉƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½Bˆ—‚ğ’†’f‚µ‚Ü‚·B" + e.toString());
+            throw new BuildException("ã‚¿ã‚¹ã‚¯ã‚’å‡¦ç†ä¸­ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™ã€‚" + e.toString());
         }
     }
 }

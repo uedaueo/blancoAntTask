@@ -31,55 +31,55 @@ import blanco.commons.util.BlancoJavaSourceUtil;
 import blanco.commons.util.BlancoNameAdjuster;
 
 /**
- * ’†ŠÔXMLƒtƒ@ƒCƒ‹(ƒƒ^î•ñ)‚©‚çJavaƒ\[ƒXƒR[ƒh‚ğ©“®¶¬‚µ‚Ü‚·B
+ * ä¸­é–“XMLãƒ•ã‚¡ã‚¤ãƒ«(ãƒ¡ã‚¿æƒ…å ±)ã‹ã‚‰Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã—ã¾ã™ã€‚
  * 
- * ’†ŠÔXMLƒtƒ@ƒCƒ‹‚ğ“ü—Í‚µ‚ÄJavaƒNƒ‰ƒXEƒ\[ƒXƒR[ƒh‚ğ©“®¶¬‚µ‚Ü‚·B <br>
+ * ä¸­é–“XMLãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…¥åŠ›ã—ã¦Javaã‚¯ãƒ©ã‚¹ãƒ»ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆã—ã¾ã™ã€‚ <br>
  * 
  * @author IGA Tosiki
  */
 public class BlancoAntTaskXml2JavaClass {
     /**
-     * ƒŠƒ\[ƒXƒoƒ“ƒhƒ‹EƒIƒuƒWƒFƒNƒgB
+     * ãƒªã‚½ãƒ¼ã‚¹ãƒãƒ³ãƒ‰ãƒ«ãƒ»ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã€‚
      */
     protected final BlancoAntTaskResourceBundle fBundle = new BlancoAntTaskResourceBundle();
 
     /**
-     * “à•”“I‚É—˜—p‚·‚éblancoCg—pƒtƒ@ƒNƒgƒŠB
+     * å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹blancoCgç”¨ãƒ•ã‚¡ã‚¯ãƒˆãƒªã€‚
      */
     private BlancoCgObjectFactory fCgFactory = null;
 
     /**
-     * “à•”“I‚É—˜—p‚·‚éblancoCg—pƒ\[ƒXƒtƒ@ƒCƒ‹î•ñB
+     * å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹blancoCgç”¨ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±ã€‚
      */
     private BlancoCgSourceFile fCgSourceFile = null;
 
     /**
-     * “à•”“I‚É—˜—p‚·‚éblancoCg—pƒNƒ‰ƒXî•ñB
+     * å†…éƒ¨çš„ã«åˆ©ç”¨ã™ã‚‹blancoCgç”¨ã‚¯ãƒ©ã‚¹æƒ…å ±ã€‚
      */
     private BlancoCgClass fCgClass = null;
 
     /**
-     * ©“®¶¬‚·‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚Ì•¶šƒGƒ“ƒR[ƒfƒBƒ“ƒOB
+     * è‡ªå‹•ç”Ÿæˆã™ã‚‹ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã®æ–‡å­—ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã€‚
      */
     private String fEncoding = null;
 
     /**
-     * ©“®¶¬‚·‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚Ì•¶šƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ğw’è‚µ‚Ü‚·B
+     * è‡ªå‹•ç”Ÿæˆã™ã‚‹ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã®æ–‡å­—ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚’æŒ‡å®šã—ã¾ã™ã€‚
      * 
      * @param argEncoding
-     *            ©“®¶¬‚·‚éƒ\[ƒXƒtƒ@ƒCƒ‹‚Ì•¶šƒGƒ“ƒR[ƒfƒBƒ“ƒOB
+     *            è‡ªå‹•ç”Ÿæˆã™ã‚‹ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã®æ–‡å­—ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã€‚
      */
     public void setEncoding(final String argEncoding) {
         fEncoding = argEncoding;
     }
 
     /**
-     * ’†ŠÔXMLƒtƒ@ƒCƒ‹‚©‚çJavaƒ\[ƒXƒR[ƒh‚ğ¶¬‚µ‚Ü‚·B
+     * ä¸­é–“XMLãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰Javaã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’ç”Ÿæˆã—ã¾ã™ã€‚
      * 
      * @param fileSource
-     *            ’†ŠÔXMLƒƒ^“ü—Íƒtƒ@ƒCƒ‹
+     *            ä¸­é–“XMLãƒ¡ã‚¿å…¥åŠ›ãƒ•ã‚¡ã‚¤ãƒ«
      * @param directoryTarget
-     *            ƒ\[ƒXƒR[ƒho—ÍƒfƒBƒŒƒNƒgƒŠ
+     *            ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰å‡ºåŠ›ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
      */
     public void process(final File fileSource, final File directoryTarget) {
         final BlancoAntTaskStructure[] structures = new BlancoAntTaskXmlParser()
@@ -91,17 +91,17 @@ public class BlancoAntTaskXml2JavaClass {
     }
 
     /**
-     * w’è‚ÌƒV[ƒg‚Ì‹Lq“à—e‚ğ“WŠJ‚µ‚Ü‚·B
+     * æŒ‡å®šã®ã‚·ãƒ¼ãƒˆã®è¨˜è¿°å†…å®¹ã‚’å±•é–‹ã—ã¾ã™ã€‚
      * 
      * @param argStructure
-     *            ƒ^ƒXƒN‚Ì\‘¢B
+     *            ã‚¿ã‚¹ã‚¯ã®æ§‹é€ ã€‚
      * @param directoryTarget
-     *            o—ÍæƒfƒBƒŒƒNƒgƒŠ
+     *            å‡ºåŠ›å…ˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
      */
     public void structure2Source(final BlancoAntTaskStructure argStructure,
             final File directoryTarget) {
 
-        // Œ±“I‚ÉblancoBatchProcess‚ğ‘g‚İ‚İB
+        // è©¦é¨“çš„ã«blancoBatchProcessã‚’çµ„ã¿è¾¼ã¿ã€‚
         final BlancoBatchProcessStructure batchProcessStructure = new BlancoBatchProcessStructure();
         batchProcessStructure.setName(BlancoNameAdjuster
                 .toClassName(argStructure.getName()));
@@ -115,7 +115,7 @@ public class BlancoAntTaskXml2JavaClass {
             inputItem.setType("blanco:boolean");
             inputItem.setRequire(false);
             inputItem.setDefault("false");
-            inputItem.setDescription("verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B");
+            inputItem.setDescription("verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚");
             batchProcessStructure.getInputItemList().add(inputItem);
         }
         for (int indexArg = 0; indexArg < argStructure.getAttributeList()
@@ -140,11 +140,11 @@ public class BlancoAntTaskXml2JavaClass {
             xml2source.structure2Source(batchProcessStructure, null, "java",
                     directoryTarget);
         } catch (IOException e) {
-            // TODO ©“®¶¬‚³‚ê‚½ catch ƒuƒƒbƒN
+            // TODO è‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸ catch ãƒ–ãƒ­ãƒƒã‚¯
             e.printStackTrace();
         }
 
-        // ]—ˆ‚ÆŒİŠ·«‚ğ‚½‚¹‚é‚½‚ßA/mainƒTƒuƒtƒHƒ‹ƒ_‚Éo—Í‚µ‚Ü‚·B
+        // å¾“æ¥ã¨äº’æ›æ€§ã‚’æŒãŸã›ã‚‹ãŸã‚ã€/mainã‚µãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã«å‡ºåŠ›ã—ã¾ã™ã€‚
         final File fileBlancoMain = new File(directoryTarget.getAbsolutePath()
                 + "/main");
 
@@ -371,7 +371,7 @@ public class BlancoAntTaskXml2JavaClass {
                     break;
                 }
                 {
-                    // •K{€–Ú‚Ö‚Ì’l‚Ìİ’è‚ğŠm”F‚µ‚Ü‚µ‚½B
+                    // å¿…é ˆé …ç›®ã¸ã®å€¤ã®è¨­å®šã‚’ç¢ºèªã—ã¾ã—ãŸã€‚
                     methodSet.getLineList().add(
                             "fIsField"
                                     + BlancoNameAdjuster
@@ -483,7 +483,7 @@ public class BlancoAntTaskXml2JavaClass {
 
                 listLine.add(fBundle.getMethodExecuteLine01((attributeStructure
                         .getNo() == null ? "" : fBundle.getItemNo() + "["
-                        + attributeStructure.getNo() + "]A"),
+                        + attributeStructure.getNo() + "]ã€"),
                         attributeStructure.getName()));
 
                 listLine.add("if (fIsField"
@@ -513,12 +513,12 @@ public class BlancoAntTaskXml2JavaClass {
 
             listLine.add("try {");
             listLine.add(fBundle.getMethodExecuteLine04());
-            listLine.add("// ‚±‚Ì‰ÓŠ‚ÅƒRƒ“ƒpƒCƒ‹ƒGƒ‰[‚ª”­¶‚·‚éê‡A"
+            listLine.add("// ã“ã®ç®‡æ‰€ã§ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã™ã‚‹å ´åˆã€"
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
-                    + "ProcessƒCƒ“ƒ^ƒtƒF[ƒX‚ğÀ‘•‚µ‚Ä " + argStructure.getPackage()
-                    + "ƒpƒbƒP[ƒW‚É "
+                    + "Processã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ã‚’å®Ÿè£…ã—ã¦ " + argStructure.getPackage()
+                    + "ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã« "
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
-                    + "ProcessImplƒNƒ‰ƒX‚ğì¬‚·‚é‚±‚Æ‚É‚æ‚è‰ğŒˆ‚Å‚«‚éê‡‚ª‚ ‚è‚Ü‚·B");
+                    + "ProcessImplã‚¯ãƒ©ã‚¹ã‚’ä½œæˆã™ã‚‹ã“ã¨ã«ã‚ˆã‚Šè§£æ±ºã§ãã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ã€‚");
             listLine.add("final "
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
                     + "Process proc = new "
@@ -527,7 +527,7 @@ public class BlancoAntTaskXml2JavaClass {
             listLine.add("if (proc.execute(fInput) != "
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
                     + "BatchProcess.END_SUCCESS) {");
-            listLine.add("throw new BuildException(\"ƒ^ƒXƒN‚ÍˆÙíI—¹‚µ‚Ü‚µ‚½B\");");
+            listLine.add("throw new BuildException(\"ã‚¿ã‚¹ã‚¯ã¯ç•°å¸¸çµ‚äº†ã—ã¾ã—ãŸã€‚\");");
             listLine.add("}");
             listLine.add("} catch (IllegalArgumentException e) {");
             listLine.add("if (getVerbose()) {");

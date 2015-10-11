@@ -21,30 +21,30 @@ import blanco.anttask.message.BlancoAntTaskMessage;
 import blanco.anttask.task.valueobject.BlancoAntTaskProcessInput;
 
 /**
- * blancoAntTask‚Ìˆ—B
+ * blancoAntTaskã®å‡¦ç†ã€‚
  * 
  * @author IGA Tosiki
  */
 public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
     /**
-     * ƒƒbƒZ[ƒW’è‹`B
+     * ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å®šç¾©ã€‚
      */
     protected final BlancoAntTaskMessage fMsg = new BlancoAntTaskMessage();
 
     /**
-     * ‹ï‘Ì“I‚Èˆ—“à—e‚ğ‹Lq‚·‚é‚½‚ß‚Ìƒƒ\ƒbƒh‚Å‚·B
+     * å…·ä½“çš„ãªå‡¦ç†å†…å®¹ã‚’è¨˜è¿°ã™ã‚‹ãŸã‚ã®ãƒ¡ã‚½ãƒƒãƒ‰ã§ã™ã€‚
      * 
-     * ‚±‚Ìƒƒ\ƒbƒh‚ÉÀÛ‚Ìˆ—“à—e‚ğ‹Lq‚µ‚Ü‚·B
+     * ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã«å®Ÿéš›ã®å‡¦ç†å†…å®¹ã‚’è¨˜è¿°ã—ã¾ã™ã€‚
      * 
      * @param input
-     *            ˆ—‚Ì“ü—Íƒpƒ‰ƒ[ƒ^B
-     * @return ˆ—‚ÌI—¹ƒR[ƒhBBlancoAntTaskBatchProcessƒNƒ‰ƒX‚Ì END_SUCCESS,
+     *            å‡¦ç†ã®å…¥åŠ›ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã€‚
+     * @return å‡¦ç†ã®çµ‚äº†ã‚³ãƒ¼ãƒ‰ã€‚BlancoAntTaskBatchProcessã‚¯ãƒ©ã‚¹ã® END_SUCCESS,
      *         END_ILLEGAL_ARGUMENT_EXCEPTION, END_IO_EXCEPTION, END_ERROR
-     *         ‚Ì‚¢‚¸‚ê‚©‚Ì’l‚ğ–ß‚µ‚Ü‚·B
+     *         ã®ã„ãšã‚Œã‹ã®å€¤ã‚’æˆ»ã—ã¾ã™ã€‚
      * @throws IOException
-     *             “üo—Í—áŠO‚ª”­¶‚µ‚½ê‡B
+     *             å…¥å‡ºåŠ›ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆã€‚
      * @throws IllegalArgumentException
-     *             “ü—Í’l‚É•s³‚ªŒ©‚Â‚©‚Á‚½ê‡B
+     *             å…¥åŠ›å€¤ã«ä¸æ­£ãŒè¦‹ã¤ã‹ã£ãŸå ´åˆã€‚
      */
     public int execute(BlancoAntTaskProcessInput input) throws IOException,
             IllegalArgumentException {
@@ -67,7 +67,7 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
 
             final File[] fileTmp = blancoTmpAntTaskDirectory.listFiles();
             if (fileTmp == null) {
-                // ‰½‚©‚µ‚ç‚Ì——R‚É‚æ‚èƒtƒ@ƒCƒ‹ˆê——‚Ìæ“¾‚É¸”s‚µ‚½ê‡B
+                // ä½•ã‹ã—ã‚‰ã®ç†ç”±ã«ã‚ˆã‚Šãƒ•ã‚¡ã‚¤ãƒ«ä¸€è¦§ã®å–å¾—ã«å¤±æ•—ã—ãŸå ´åˆã€‚
                 throw new IllegalArgumentException(fMsg
                         .getMbata002(blancoTmpAntTaskDirectory
                                 .getAbsolutePath()));
@@ -82,7 +82,7 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
                 }
             }
         } catch (TransformerException e) {
-            throw new IOException("XML•ÏŠ·‚Ì‰ß’ö‚Å—áŠO‚ª”­¶‚µ‚Ü‚µ‚½: " + e.toString());
+            throw new IOException("XMLå¤‰æ›ã®éç¨‹ã§ä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸ: " + e.toString());
         }
 
         return BlancoAntTaskBatchProcess.END_SUCCESS;

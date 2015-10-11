@@ -12,350 +12,350 @@ package blanco.sample.task.valueobject;
 import java.math.BigDecimal;
 
 /**
- * ˆ—ƒNƒ‰ƒX [BlancoAntTaskSampleProcess]‚Ì“ü—ÍƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒgƒNƒ‰ƒX‚Å‚·B
+ * å‡¦ç†ã‚¯ãƒ©ã‚¹ [BlancoAntTaskSampleProcess]ã®å…¥åŠ›ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚¯ãƒ©ã‚¹ã§ã™ã€‚
  */
 public class BlancoAntTaskSampleProcessInput {
     /**
-     * verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B
+     * verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [verbose]B
-     * ƒfƒtƒHƒ‹ƒg: [false]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [verbose]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [false]ã€‚
      */
     private boolean fVerbose = false;
 
     /**
-     * •¶š—ñi•K{j
+     * æ–‡å­—åˆ—ï¼ˆå¿…é ˆï¼‰
      *
-     * ƒtƒB[ƒ‹ƒh: [attr1]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr1]ã€‚
      */
     private String fAttr1;
 
     /**
      * blanco:string
      *
-     * ƒtƒB[ƒ‹ƒh: [attr2]B
-     * ƒfƒtƒHƒ‹ƒg: [ƒfƒtƒHƒ‹ƒg]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr2]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ]ã€‚
      */
-    private String fAttr2 = "ƒfƒtƒHƒ‹ƒg";
+    private String fAttr2 = "ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ";
 
     /**
-     * ®”(int)(•K{)
+     * æ•´æ•°(int)(å¿…é ˆ)
      *
-     * ƒtƒB[ƒ‹ƒh: [attr3]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr3]ã€‚
      */
     private int fAttr3;
 
     /**
      * blanco:int
      *
-     * ƒtƒB[ƒ‹ƒh: [attr4]B
-     * ƒfƒtƒHƒ‹ƒg: [10]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr4]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [10]ã€‚
      */
     private int fAttr4 = 10;
 
     /**
-     * ®”(long)(•K{)
+     * æ•´æ•°(long)(å¿…é ˆ)
      *
-     * ƒtƒB[ƒ‹ƒh: [attr5]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr5]ã€‚
      */
     private long fAttr5;
 
     /**
      * blanco:long
      *
-     * ƒtƒB[ƒ‹ƒh: [attr6]B
-     * ƒfƒtƒHƒ‹ƒg: [100]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr6]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [100]ã€‚
      */
     private long fAttr6 = 100;
 
     /**
-     * ®”(decimal)(•K{)
+     * æ•´æ•°(decimal)(å¿…é ˆ)
      *
-     * ƒtƒB[ƒ‹ƒh: [attr7]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr7]ã€‚
      */
     private BigDecimal fAttr7;
 
     /**
-     * ®”(decimal)
+     * æ•´æ•°(decimal)
      *
-     * ƒtƒB[ƒ‹ƒh: [attr8]B
-     * ƒfƒtƒHƒ‹ƒg: [123.456]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr8]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [123.456]ã€‚
      */
     private BigDecimal fAttr8 = new BigDecimal("123.456");
 
     /**
-     * ^‹U(•K{)
+     * çœŸå½(å¿…é ˆ)
      *
-     * ƒtƒB[ƒ‹ƒh: [attr9]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr9]ã€‚
      */
     private boolean fAttr9;
 
     /**
      * blanco:boolean
      *
-     * ƒtƒB[ƒ‹ƒh: [attr10]B
-     * ƒfƒtƒHƒ‹ƒg: [true]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attr10]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [true]ã€‚
      */
     private boolean fAttr10 = true;
 
     /**
-     * ƒtƒB[ƒ‹ƒh [verbose] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [verbose] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚]ã€‚
      *
-     * @param argVerbose ƒtƒB[ƒ‹ƒh[verbose]‚Éİ’è‚·‚é’lB
+     * @param argVerbose ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[verbose]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setVerbose(final boolean argVerbose) {
         fVerbose = argVerbose;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [verbose] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [verbose] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [verboseƒ‚[ƒh‚Å“®ì‚³‚¹‚é‚©‚Ç‚¤‚©B]B
-     * ƒfƒtƒHƒ‹ƒg: [false]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [verboseãƒ¢ãƒ¼ãƒ‰ã§å‹•ä½œã•ã›ã‚‹ã‹ã©ã†ã‹ã€‚]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [false]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[verbose]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[verbose]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public boolean getVerbose() {
         return fVerbose;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr1] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr1] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [•¶š—ñi•K{j]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ–‡å­—åˆ—ï¼ˆå¿…é ˆï¼‰]ã€‚
      *
-     * @param argAttr1 ƒtƒB[ƒ‹ƒh[attr1]‚Éİ’è‚·‚é’lB
+     * @param argAttr1 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr1]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr1(final String argAttr1) {
         fAttr1 = argAttr1;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr1] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr1] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [•¶š—ñi•K{j]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ–‡å­—åˆ—ï¼ˆå¿…é ˆï¼‰]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr1]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr1]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttr1() {
         return fAttr1;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr2] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr2] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:string]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:string]ã€‚
      *
-     * @param argAttr2 ƒtƒB[ƒ‹ƒh[attr2]‚Éİ’è‚·‚é’lB
+     * @param argAttr2 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr2]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr2(final String argAttr2) {
         fAttr2 = argAttr2;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr2] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr2] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:string]B
-     * ƒfƒtƒHƒ‹ƒg: [ƒfƒtƒHƒ‹ƒg]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:string]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr2]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr2]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getAttr2() {
         return fAttr2;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr3] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr3] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(int)(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(int)(å¿…é ˆ)]ã€‚
      *
-     * @param argAttr3 ƒtƒB[ƒ‹ƒh[attr3]‚Éİ’è‚·‚é’lB
+     * @param argAttr3 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr3]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr3(final int argAttr3) {
         fAttr3 = argAttr3;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr3] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr3] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(int)(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(int)(å¿…é ˆ)]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr3]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr3]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public int getAttr3() {
         return fAttr3;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr4] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr4] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:int]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:int]ã€‚
      *
-     * @param argAttr4 ƒtƒB[ƒ‹ƒh[attr4]‚Éİ’è‚·‚é’lB
+     * @param argAttr4 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr4]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr4(final int argAttr4) {
         fAttr4 = argAttr4;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr4] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr4] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:int]B
-     * ƒfƒtƒHƒ‹ƒg: [10]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:int]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [10]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr4]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr4]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public int getAttr4() {
         return fAttr4;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr5] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr5] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(long)(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(long)(å¿…é ˆ)]ã€‚
      *
-     * @param argAttr5 ƒtƒB[ƒ‹ƒh[attr5]‚Éİ’è‚·‚é’lB
+     * @param argAttr5 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr5]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr5(final long argAttr5) {
         fAttr5 = argAttr5;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr5] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr5] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(long)(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(long)(å¿…é ˆ)]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr5]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr5]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public long getAttr5() {
         return fAttr5;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr6] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr6] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:long]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:long]ã€‚
      *
-     * @param argAttr6 ƒtƒB[ƒ‹ƒh[attr6]‚Éİ’è‚·‚é’lB
+     * @param argAttr6 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr6]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr6(final long argAttr6) {
         fAttr6 = argAttr6;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr6] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr6] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:long]B
-     * ƒfƒtƒHƒ‹ƒg: [100]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:long]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [100]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr6]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr6]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public long getAttr6() {
         return fAttr6;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr7] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr7] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(decimal)(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(decimal)(å¿…é ˆ)]ã€‚
      *
-     * @param argAttr7 ƒtƒB[ƒ‹ƒh[attr7]‚Éİ’è‚·‚é’lB
+     * @param argAttr7 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr7]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr7(final BigDecimal argAttr7) {
         fAttr7 = argAttr7;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr7] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr7] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(decimal)(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(decimal)(å¿…é ˆ)]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr7]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr7]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public BigDecimal getAttr7() {
         return fAttr7;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr8] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr8] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(decimal)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(decimal)]ã€‚
      *
-     * @param argAttr8 ƒtƒB[ƒ‹ƒh[attr8]‚Éİ’è‚·‚é’lB
+     * @param argAttr8 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr8]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr8(final BigDecimal argAttr8) {
         fAttr8 = argAttr8;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr8] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr8] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [®”(decimal)]B
-     * ƒfƒtƒHƒ‹ƒg: [123.456]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [æ•´æ•°(decimal)]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [123.456]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr8]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr8]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public BigDecimal getAttr8() {
         return fAttr8;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr9] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr9] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [^‹U(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [çœŸå½(å¿…é ˆ)]ã€‚
      *
-     * @param argAttr9 ƒtƒB[ƒ‹ƒh[attr9]‚Éİ’è‚·‚é’lB
+     * @param argAttr9 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr9]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr9(final boolean argAttr9) {
         fAttr9 = argAttr9;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr9] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr9] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [^‹U(•K{)]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [çœŸå½(å¿…é ˆ)]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr9]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr9]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public boolean getAttr9() {
         return fAttr9;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr10] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr10] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:boolean]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:boolean]ã€‚
      *
-     * @param argAttr10 ƒtƒB[ƒ‹ƒh[attr10]‚Éİ’è‚·‚é’lB
+     * @param argAttr10 ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr10]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttr10(final boolean argAttr10) {
         fAttr10 = argAttr10;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attr10] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attr10] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [blanco:boolean]B
-     * ƒfƒtƒHƒ‹ƒg: [true]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [blanco:boolean]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [true]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attr10]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attr10]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public boolean getAttr10() {
         return fAttr10;
     }
 
     /**
-     * ‚±‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»‚ğæ“¾‚µ‚Ü‚·B
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * <P>g—pã‚Ì’ˆÓ</P>
+     * <P>ä½¿ç”¨ä¸Šã®æ³¨æ„</P>
      * <UL>
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ÌƒVƒƒƒ[”ÍˆÍ‚Ì‚İ•¶š—ñ‰»‚Ìˆ—‘ÎÛ‚Æ‚È‚è‚Ü‚·B
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ªzŠÂQÆ‚µ‚Ä‚¢‚éê‡‚É‚ÍA‚±‚Ìƒƒ\ƒbƒh‚Íg‚í‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿æ–‡å­—åˆ—åŒ–ã®å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
      * </UL>
      *
-     * @return ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»B
+     * @return ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã€‚
      */
     @Override
     public String toString() {

@@ -12,166 +12,166 @@ package blanco.anttask.valueobject;
 import java.util.List;
 
 /**
- * blancoAntTask‚Ì‚È‚©‚Å—˜—p‚³‚ê‚éValueObject‚Å‚·B
+ * blancoAntTaskã®ãªã‹ã§åˆ©ç”¨ã•ã‚Œã‚‹ValueObjectã§ã™ã€‚
  */
 public class BlancoAntTaskStructure {
     /**
-     * ƒ^ƒXƒN–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B
+     * ã‚¿ã‚¹ã‚¯åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [name]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [name]ã€‚
      */
     private String fName;
 
     /**
-     * ƒpƒbƒP[ƒW–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B
+     * ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [package]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [package]ã€‚
      */
     private String fPackage;
 
     /**
-     * à–¾‚ğ‹LÚ‚µ‚Ü‚·B
+     * èª¬æ˜ã‚’è¨˜è¼‰ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [description]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [description]ã€‚
      */
     private String fDescription;
 
     /**
-     * ƒNƒ‰ƒX–¼‚ÌŒã•û‚É•t—^‚³‚ê‚éƒTƒtƒBƒbƒNƒXB
+     * ã‚¯ãƒ©ã‚¹åã®å¾Œæ–¹ã«ä»˜ä¸ã•ã‚Œã‚‹ã‚µãƒ•ã‚£ãƒƒã‚¯ã‚¹ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [suffix]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [suffix]ã€‚
      */
     private String fSuffix;
 
     /**
-     * ƒAƒgƒŠƒrƒ…[ƒg‚ğ•Û‚·‚éƒŠƒXƒgB
+     * ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã‚’ä¿æŒã™ã‚‹ãƒªã‚¹ãƒˆã€‚
      *
-     * ƒtƒB[ƒ‹ƒh: [attributeList]B
-     * ƒfƒtƒHƒ‹ƒg: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰: [attributeList]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]ã€‚
      */
     private List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> fAttributeList = new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>();
 
     /**
-     * ƒtƒB[ƒ‹ƒh [name] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [name] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒ^ƒXƒN–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¿ã‚¹ã‚¯åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @param argName ƒtƒB[ƒ‹ƒh[name]‚Éİ’è‚·‚é’lB
+     * @param argName ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[name]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setName(final String argName) {
         fName = argName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [name] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [name] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒ^ƒXƒN–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¿ã‚¹ã‚¯åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[name]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[name]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getName() {
         return fName;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [package] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [package] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒpƒbƒP[ƒW–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @param argPackage ƒtƒB[ƒ‹ƒh[package]‚Éİ’è‚·‚é’lB
+     * @param argPackage ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[package]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setPackage(final String argPackage) {
         fPackage = argPackage;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [package] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [package] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒpƒbƒP[ƒW–¼‚ğw’è‚µ‚Ü‚·B•K{€–Ú‚Å‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸åã‚’æŒ‡å®šã—ã¾ã™ã€‚å¿…é ˆé …ç›®ã§ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[package]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[package]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getPackage() {
         return fPackage;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [description] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [description] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [à–¾‚ğ‹LÚ‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [èª¬æ˜ã‚’è¨˜è¼‰ã—ã¾ã™ã€‚]ã€‚
      *
-     * @param argDescription ƒtƒB[ƒ‹ƒh[description]‚Éİ’è‚·‚é’lB
+     * @param argDescription ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[description]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setDescription(final String argDescription) {
         fDescription = argDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [description] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [description] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [à–¾‚ğ‹LÚ‚µ‚Ü‚·B]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [èª¬æ˜ã‚’è¨˜è¼‰ã—ã¾ã™ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[description]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[description]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getDescription() {
         return fDescription;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [suffix] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [suffix] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒNƒ‰ƒX–¼‚ÌŒã•û‚É•t—^‚³‚ê‚éƒTƒtƒBƒbƒNƒXB]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¯ãƒ©ã‚¹åã®å¾Œæ–¹ã«ä»˜ä¸ã•ã‚Œã‚‹ã‚µãƒ•ã‚£ãƒƒã‚¯ã‚¹ã€‚]ã€‚
      *
-     * @param argSuffix ƒtƒB[ƒ‹ƒh[suffix]‚Éİ’è‚·‚é’lB
+     * @param argSuffix ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[suffix]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setSuffix(final String argSuffix) {
         fSuffix = argSuffix;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [suffix] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [suffix] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒNƒ‰ƒX–¼‚ÌŒã•û‚É•t—^‚³‚ê‚éƒTƒtƒBƒbƒNƒXB]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¯ãƒ©ã‚¹åã®å¾Œæ–¹ã«ä»˜ä¸ã•ã‚Œã‚‹ã‚µãƒ•ã‚£ãƒƒã‚¯ã‚¹ã€‚]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[suffix]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[suffix]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public String getSuffix() {
         return fSuffix;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attributeList] ‚Ì’l‚ğİ’è‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attributeList] ã®å€¤ã‚’è¨­å®šã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒAƒgƒŠƒrƒ…[ƒg‚ğ•Û‚·‚éƒŠƒXƒgB]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã‚’ä¿æŒã™ã‚‹ãƒªã‚¹ãƒˆã€‚]ã€‚
      *
-     * @param argAttributeList ƒtƒB[ƒ‹ƒh[attributeList]‚Éİ’è‚·‚é’lB
+     * @param argAttributeList ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attributeList]ã«è¨­å®šã™ã‚‹å€¤ã€‚
      */
     public void setAttributeList(final List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> argAttributeList) {
         fAttributeList = argAttributeList;
     }
 
     /**
-     * ƒtƒB[ƒ‹ƒh [attributeList] ‚Ì’l‚ğæ“¾‚µ‚Ü‚·B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ [attributeList] ã®å€¤ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * ƒtƒB[ƒ‹ƒh‚Ìà–¾: [ƒAƒgƒŠƒrƒ…[ƒg‚ğ•Û‚·‚éƒŠƒXƒgB]B
-     * ƒfƒtƒHƒ‹ƒg: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]B
+     * ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã®èª¬æ˜: [ã‚¢ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ãƒˆã‚’ä¿æŒã™ã‚‹ãƒªã‚¹ãƒˆã€‚]ã€‚
+     * ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]ã€‚
      *
-     * @return ƒtƒB[ƒ‹ƒh[attributeList]‚©‚çæ“¾‚µ‚½’lB
+     * @return ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰[attributeList]ã‹ã‚‰å–å¾—ã—ãŸå€¤ã€‚
      */
     public List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> getAttributeList() {
         return fAttributeList;
     }
 
     /**
-     * ‚±‚ÌƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»‚ğæ“¾‚µ‚Ü‚·B
+     * ã“ã®ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã‚’å–å¾—ã—ã¾ã™ã€‚
      *
-     * <P>g—pã‚Ì’ˆÓ</P>
+     * <P>ä½¿ç”¨ä¸Šã®æ³¨æ„</P>
      * <UL>
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ÌƒVƒƒƒ[”ÍˆÍ‚Ì‚İ•¶š—ñ‰»‚Ìˆ—‘ÎÛ‚Æ‚È‚è‚Ü‚·B
-     * <LI>ƒIƒuƒWƒFƒNƒg‚ªzŠÂQÆ‚µ‚Ä‚¢‚éê‡‚É‚ÍA‚±‚Ìƒƒ\ƒbƒh‚Íg‚í‚È‚¢‚Å‚­‚¾‚³‚¢B
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ã‚·ãƒ£ãƒ­ãƒ¼ç¯„å›²ã®ã¿æ–‡å­—åˆ—åŒ–ã®å‡¦ç†å¯¾è±¡ã¨ãªã‚Šã¾ã™ã€‚
+     * <LI>ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒå¾ªç’°å‚ç…§ã—ã¦ã„ã‚‹å ´åˆã«ã¯ã€ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã¯ä½¿ã‚ãªã„ã§ãã ã•ã„ã€‚
      * </UL>
      *
-     * @return ƒoƒŠƒ…[ƒIƒuƒWƒFƒNƒg‚Ì•¶š—ñ•\Œ»B
+     * @return ãƒãƒªãƒ¥ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ–‡å­—åˆ—è¡¨ç¾ã€‚
      */
     @Override
     public String toString() {

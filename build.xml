@@ -14,42 +14,42 @@
 	<!-- Antタスク定義 begin -->
 	<taskdef name="blancoanttask" classname="blanco.anttask.task.BlancoAntTaskTask">
 		<classpath>
-			<fileset dir="lib" includes="*.jar" />
+			<fileset dir="target/lib" includes="*.jar" />
 			<fileset dir="lib.ant" includes="*.jar" />
 		</classpath>
 	</taskdef>
 
 	<taskdef name="blancoconstants" classname="blanco.constants.task.BlancoConstantsTask">
 		<classpath>
-			<fileset dir="lib" includes="*.jar" />
+			<fileset dir="target/lib" includes="*.jar" />
 			<fileset dir="lib.ant" includes="*.jar" />
 		</classpath>
 	</taskdef>
 
 	<taskdef name="blancomessage" classname="blanco.message.task.BlancoMessageTask">
 		<classpath>
-			<fileset dir="lib" includes="*.jar" />
+			<fileset dir="target/lib" includes="*.jar" />
 			<fileset dir="lib.ant" includes="*.jar" />
 		</classpath>
 	</taskdef>
 
 	<taskdef name="blancometa2xml" classname="blanco.meta2xml.task.BlancoMeta2XmlTask">
 		<classpath>
-			<fileset dir="lib" includes="*.jar" />
+			<fileset dir="target/lib" includes="*.jar" />
 			<fileset dir="lib.ant" includes="*.jar" />
 		</classpath>
 	</taskdef>
 
 	<taskdef name="blancoresourcebundle" classname="blanco.resourcebundle.task.BlancoResourceBundleTask">
 		<classpath>
-			<fileset dir="lib" includes="*.jar" />
+			<fileset dir="target/lib" includes="*.jar" />
 			<fileset dir="lib.ant" includes="*.jar" />
 		</classpath>
 	</taskdef>
 
 	<taskdef name="blancovalueobject" classname="blanco.valueobject.task.BlancoValueObjectTask">
 		<classpath>
-			<fileset dir="lib" includes="*.jar" />
+			<fileset dir="target/lib" includes="*.jar" />
 			<fileset dir="lib.ant" includes="*.jar" />
 		</classpath>
 	</taskdef>
@@ -88,7 +88,7 @@
 		<echo>building jar</echo>
 
 		<!-- 定義書読込設定XMLファイル(blancoCalcParserが利用) をコピーします。 -->
-		<copy file="src/blanco/anttask/BlancoAntTaskMeta2Xml.xml" todir="bin/blanco/anttask" />
+		<copy file="src/main/resources/blanco/anttask/BlancoAntTaskMeta2Xml.xml" todir="bin/blanco/anttask" />
 
 		<delete file="${project.main.jar}" />
 		<jar destfile="${project.main.jar}">
@@ -109,10 +109,10 @@
 		<mkdir dir="bin" />
 		<javac destdir="bin" debug="true" source="1.6" target="1.6" fork="true" encoding="${encoding}">
 			<src path="blanco/main/" />
-			<src path="src/" />
+			<src path="src/main/java/" />
 			<classpath>
 				<!-- ワイルドカードで一括取り込み -->
-				<fileset dir="lib" includes="*.jar" />
+				<fileset dir="target/lib" includes="*.jar" />
 				<pathelement path="${eclipse.dir}/plugins/org.junit_3.8.2.v20080602-1318/junit.jar" />
 			</classpath>
 			<include name="**/*.java" />

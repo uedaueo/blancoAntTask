@@ -375,4 +375,57 @@ public class BlancoAntTaskSampleProcessInput {
         buf.append("]");
         return buf.toString();
     }
+
+    /**
+     * このバリューオブジェクトを指定のターゲットに複写します。
+     *
+     * <P>使用上の注意</P>
+     * <UL>
+     * <LI>オブジェクトのシャロー範囲のみ複写処理対象となります。
+     * <LI>オブジェクトが循環参照している場合には、このメソッドは使わないでください。
+     * </UL>
+     *
+     * @param target target value object.
+     */
+    public void copyTo(final BlancoAntTaskSampleProcessInput target) {
+        if (target == null) {
+            throw new IllegalArgumentException("Bug: BlancoAntTaskSampleProcessInput#copyTo(target): argument 'target' is null");
+        }
+
+        // No needs to copy parent class.
+
+        // Name: fVerbose
+        // Type: boolean
+        target.fVerbose = this.fVerbose;
+        // Name: fAttr1
+        // Type: java.lang.String
+        target.fAttr1 = this.fAttr1;
+        // Name: fAttr2
+        // Type: java.lang.String
+        target.fAttr2 = this.fAttr2;
+        // Name: fAttr3
+        // Type: int
+        target.fAttr3 = this.fAttr3;
+        // Name: fAttr4
+        // Type: int
+        target.fAttr4 = this.fAttr4;
+        // Name: fAttr5
+        // Type: long
+        target.fAttr5 = this.fAttr5;
+        // Name: fAttr6
+        // Type: long
+        target.fAttr6 = this.fAttr6;
+        // Name: fAttr7
+        // Type: java.math.BigDecimal
+        target.fAttr7 = this.fAttr7;
+        // Name: fAttr8
+        // Type: java.math.BigDecimal
+        target.fAttr8 = this.fAttr8;
+        // Name: fAttr9
+        // Type: boolean
+        target.fAttr9 = this.fAttr9;
+        // Name: fAttr10
+        // Type: boolean
+        target.fAttr10 = this.fAttr10;
+    }
 }

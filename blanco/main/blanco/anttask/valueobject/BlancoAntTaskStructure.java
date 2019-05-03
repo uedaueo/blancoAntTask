@@ -47,7 +47,7 @@ public class BlancoAntTaskStructure {
      * アトリビュートを保持するリスト。
      *
      * フィールド: [attributeList]。
-     * デフォルト: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]。
+     * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
      */
     private List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> fAttributeList = new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>();
 
@@ -154,7 +154,7 @@ public class BlancoAntTaskStructure {
      * フィールド [attributeList] の値を取得します。
      *
      * フィールドの説明: [アトリビュートを保持するリスト。]。
-     * デフォルト: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]。
+     * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
      *
      * @return フィールド[attributeList]から取得した値。
      */
@@ -184,5 +184,48 @@ public class BlancoAntTaskStructure {
         buf.append(",attributeList=" + fAttributeList);
         buf.append("]");
         return buf.toString();
+    }
+
+    /**
+     * このバリューオブジェクトを指定のターゲットに複写します。
+     *
+     * <P>使用上の注意</P>
+     * <UL>
+     * <LI>オブジェクトのシャロー範囲のみ複写処理対象となります。
+     * <LI>オブジェクトが循環参照している場合には、このメソッドは使わないでください。
+     * </UL>
+     *
+     * @param target target value object.
+     */
+    public void copyTo(final BlancoAntTaskStructure target) {
+        if (target == null) {
+            throw new IllegalArgumentException("Bug: BlancoAntTaskStructure#copyTo(target): argument 'target' is null");
+        }
+
+        // No needs to copy parent class.
+
+        // Name: fName
+        // Type: java.lang.String
+        target.fName = this.fName;
+        // Name: fPackage
+        // Type: java.lang.String
+        target.fPackage = this.fPackage;
+        // Name: fDescription
+        // Type: java.lang.String
+        target.fDescription = this.fDescription;
+        // Name: fSuffix
+        // Type: java.lang.String
+        target.fSuffix = this.fSuffix;
+        // Name: fAttributeList
+        // Type: java.util.List
+        if (this.fAttributeList != null) {
+            final java.util.Iterator<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> iterator = this.fAttributeList.iterator();
+            for (; iterator.hasNext();) {
+                blanco.anttask.valueobject.BlancoAntTaskAttributeStructure loopSource = iterator.next();
+                blanco.anttask.valueobject.BlancoAntTaskAttributeStructure loopTarget = null;
+                // フィールド[generics]はサポート外の型[blanco.anttask.valueobject.BlancoAntTaskAttributeStructure]です。
+                target.fAttributeList.add(loopTarget);
+            }
+        }
     }
 }

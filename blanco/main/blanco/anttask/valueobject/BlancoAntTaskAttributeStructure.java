@@ -31,7 +31,7 @@ public class BlancoAntTaskAttributeStructure {
      * 型。
      *
      * フィールド: [type]。
-     * デフォルト: ["blanco:string"]。
+     * デフォルト: [&quot;blanco:string&quot;]。
      */
     private String fType = "blanco:string";
 
@@ -116,7 +116,7 @@ public class BlancoAntTaskAttributeStructure {
      * フィールド [type] の値を取得します。
      *
      * フィールドの説明: [型。]。
-     * デフォルト: ["blanco:string"]。
+     * デフォルト: [&quot;blanco:string&quot;]。
      *
      * @return フィールド[type]から取得した値。
      */
@@ -214,5 +214,43 @@ public class BlancoAntTaskAttributeStructure {
         buf.append(",description=" + fDescription);
         buf.append("]");
         return buf.toString();
+    }
+
+    /**
+     * このバリューオブジェクトを指定のターゲットに複写します。
+     *
+     * <P>使用上の注意</P>
+     * <UL>
+     * <LI>オブジェクトのシャロー範囲のみ複写処理対象となります。
+     * <LI>オブジェクトが循環参照している場合には、このメソッドは使わないでください。
+     * </UL>
+     *
+     * @param target target value object.
+     */
+    public void copyTo(final BlancoAntTaskAttributeStructure target) {
+        if (target == null) {
+            throw new IllegalArgumentException("Bug: BlancoAntTaskAttributeStructure#copyTo(target): argument 'target' is null");
+        }
+
+        // No needs to copy parent class.
+
+        // Name: fNo
+        // Type: java.lang.String
+        target.fNo = this.fNo;
+        // Name: fName
+        // Type: java.lang.String
+        target.fName = this.fName;
+        // Name: fType
+        // Type: java.lang.String
+        target.fType = this.fType;
+        // Name: fRequire
+        // Type: boolean
+        target.fRequire = this.fRequire;
+        // Name: fDefault
+        // Type: java.lang.String
+        target.fDefault = this.fDefault;
+        // Name: fDescription
+        // Type: java.lang.String
+        target.fDescription = this.fDescription;
     }
 }

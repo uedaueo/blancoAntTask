@@ -31,7 +31,7 @@ public class BlancoAntTaskAttributeStructure {
      * 型。
      *
      * フィールド: [type]。
-     * デフォルト: [&quot;blanco:string&quot;]。
+     * デフォルト: ["blanco:string"]。
      */
     private String fType = "blanco:string";
 
@@ -116,7 +116,7 @@ public class BlancoAntTaskAttributeStructure {
      * フィールド [type] の値を取得します。
      *
      * フィールドの説明: [型。]。
-     * デフォルト: [&quot;blanco:string&quot;]。
+     * デフォルト: ["blanco:string"]。
      *
      * @return フィールド[type]から取得した値。
      */

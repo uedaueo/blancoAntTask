@@ -47,7 +47,7 @@ public class BlancoAntTaskStructure {
      * アトリビュートを保持するリスト。
      *
      * フィールド: [attributeList]。
-     * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
+     * デフォルト: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]。
      */
     private List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> fAttributeList = new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>();
 
@@ -154,7 +154,7 @@ public class BlancoAntTaskStructure {
      * フィールド [attributeList] の値を取得します。
      *
      * フィールドの説明: [アトリビュートを保持するリスト。]。
-     * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
+     * デフォルト: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]。
      *
      * @return フィールド[attributeList]から取得した値。
      */

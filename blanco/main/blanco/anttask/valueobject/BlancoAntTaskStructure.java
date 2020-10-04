@@ -1,12 +1,3 @@
-/*
- * blanco Framework
- * Copyright (C) 2004-2009 IGA Tosiki
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- */
 package blanco.anttask.valueobject;
 
 import java.util.List;
@@ -47,7 +38,7 @@ public class BlancoAntTaskStructure {
      * アトリビュートを保持するリスト。
      *
      * フィールド: [attributeList]。
-     * デフォルト: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]。
+     * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
      */
     private List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> fAttributeList = new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>();
 
@@ -154,7 +145,7 @@ public class BlancoAntTaskStructure {
      * フィールド [attributeList] の値を取得します。
      *
      * フィールドの説明: [アトリビュートを保持するリスト。]。
-     * デフォルト: [new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>()]。
+     * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
      *
      * @return フィールド[attributeList]から取得した値。
      */

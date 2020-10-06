@@ -1,7 +1,7 @@
 /*
  * blanco Framework
  * Copyright (C) 2004-2005 IGA Tosiki
- * 
+ *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -9,9 +9,9 @@
  */
 package blanco.sample.task;
 
-import java.io.IOException;
-
 import blanco.sample.task.valueobject.BlancoAntTaskSampleProcessInput;
+
+import java.io.IOException;
 
 public class BlancoAntTaskSampleProcessImpl implements
         BlancoAntTaskSampleProcess {

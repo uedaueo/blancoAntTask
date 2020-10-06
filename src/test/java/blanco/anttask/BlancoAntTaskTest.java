@@ -15,9 +15,9 @@ public class BlancoAntTaskTest {
     @Test
     public void testBlancoAntTask() {
         BlancoAntTaskProcessInput input = new BlancoAntTaskProcessInput();
-        input.setMetadir("meta/task");
+        input.setMetadir("meta/program");
         input.setEncoding("UTF-8");
-        input.setTargetdir("sample/blanco");
+        input.setTargetdir("blanco");
         input.setTmpdir("tmpTest");
         input.setVerbose(true);
 

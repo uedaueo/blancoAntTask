@@ -1,7 +1,7 @@
 /*
  * blanco Framework
  * Copyright (C) 2004-2005 IGA Tosiki
- * 
+ *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
@@ -22,7 +22,7 @@ import blanco.anttask.task.valueobject.BlancoAntTaskProcessInput;
 
 /**
  * blancoAntTaskの処理。
- * 
+ *
  * @author IGA Tosiki
  */
 public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
@@ -33,9 +33,9 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
 
     /**
      * 具体的な処理内容を記述するためのメソッドです。
-     * 
+     *
      * このメソッドに実際の処理内容を記述します。
-     * 
+     *
      * @param input
      *            処理の入力パラメータ。
      * @return 処理の終了コード。BlancoAntTaskBatchProcessクラスの END_SUCCESS,
@@ -60,6 +60,38 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
             if (fileMetadir.exists() == false) {
                 throw new IllegalArgumentException(fMsg.getMbata001(input
                         .getMetadir()));
+            }
+
+            /*
+             * 改行コードを決定します。
+             */
+            String LF = "\n";
+            String CR = "\r";
+            String CRLF = CR + LF;
+            String lineSeparatorMark = input.getLineSeparator();
+            String lineSeparator = "";
+            if ("LF".equals(lineSeparatorMark)) {
+                lineSeparator = LF;
+            } else if ("CR".equals(lineSeparatorMark)) {
+                lineSeparator = CR;
+            } else if ("CRLF".equals(lineSeparatorMark)) {
+                lineSeparator = CRLF;
+            }
+            if (lineSeparator.length() != 0) {
+                System.setProperty("line.separator", lineSeparator);
+                if (input.getVerbose()) {
+                    System.out.println("lineSeparator try to change to " + lineSeparatorMark);
+                    String newProp = System.getProperty("line.separator");
+                    String newMark = "other";
+                    if (LF.equals(newProp)) {
+                        newMark = "LF";
+                    } else if (CR.equals(newProp)) {
+                        newMark = "CR";
+                    } else if (CRLF.equals(newProp)) {
+                        newMark = "CRLF";
+                    }
+                    System.out.println("New System Props = " + newMark);
+                }
             }
 
             new BlancoAntTaskMeta2Xml().processDirectory(fileMetadir,

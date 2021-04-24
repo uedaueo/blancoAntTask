@@ -43,6 +43,14 @@ public class BlancoAntTaskProcessInput {
     private String fEncoding;
 
     /**
+     * 自動生成するソースコードの改行コードを、LF, CR, CRLFで指定します。
+     *
+     * フィールド: [lineSeparator]。
+     * デフォルト: [LF]。
+     */
+    private String fLineSeparator = "LF";
+
+    /**
      * フィールド [verbose] の値を設定します。
      *
      * フィールドの説明: [verboseモードで動作させるかどうか。]。
@@ -156,6 +164,29 @@ public class BlancoAntTaskProcessInput {
     }
 
     /**
+     * フィールド [lineSeparator] の値を設定します。
+     *
+     * フィールドの説明: [自動生成するソースコードの改行コードを、LF, CR, CRLFで指定します。]。
+     *
+     * @param argLineSeparator フィールド[lineSeparator]に設定する値。
+     */
+    public void setLineSeparator(final String argLineSeparator) {
+        fLineSeparator = argLineSeparator;
+    }
+
+    /**
+     * フィールド [lineSeparator] の値を取得します。
+     *
+     * フィールドの説明: [自動生成するソースコードの改行コードを、LF, CR, CRLFで指定します。]。
+     * デフォルト: [LF]。
+     *
+     * @return フィールド[lineSeparator]から取得した値。
+     */
+    public String getLineSeparator() {
+        return fLineSeparator;
+    }
+
+    /**
      * このバリューオブジェクトの文字列表現を取得します。
      *
      * <P>使用上の注意</P>
@@ -175,6 +206,7 @@ public class BlancoAntTaskProcessInput {
         buf.append(",targetdir=" + fTargetdir);
         buf.append(",tmpdir=" + fTmpdir);
         buf.append(",encoding=" + fEncoding);
+        buf.append(",lineSeparator=" + fLineSeparator);
         buf.append("]");
         return buf.toString();
     }
@@ -212,5 +244,8 @@ public class BlancoAntTaskProcessInput {
         // Name: fEncoding
         // Type: java.lang.String
         target.fEncoding = this.fEncoding;
+        // Name: fLineSeparator
+        // Type: java.lang.String
+        target.fLineSeparator = this.fLineSeparator;
     }
 }

@@ -40,7 +40,7 @@ public class BlancoAntTaskStructure {
      * フィールド: [attributeList]。
      * デフォルト: [new java.util.ArrayList&lt;blanco.anttask.valueobject.BlancoAntTaskAttributeStructure&gt;()]。
      */
-    private List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> fAttributeList = new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>();
+    private List<BlancoAntTaskAttributeStructure> fAttributeList = new java.util.ArrayList<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure>();
 
     /**
      * フィールド [name] の値を設定します。
@@ -137,7 +137,7 @@ public class BlancoAntTaskStructure {
      *
      * @param argAttributeList フィールド[attributeList]に設定する値。
      */
-    public void setAttributeList(final List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> argAttributeList) {
+    public void setAttributeList(final List<BlancoAntTaskAttributeStructure> argAttributeList) {
         fAttributeList = argAttributeList;
     }
 
@@ -149,7 +149,7 @@ public class BlancoAntTaskStructure {
      *
      * @return フィールド[attributeList]から取得した値。
      */
-    public List<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> getAttributeList() {
+    public List<BlancoAntTaskAttributeStructure> getAttributeList() {
         return fAttributeList;
     }
 
@@ -209,14 +209,6 @@ public class BlancoAntTaskStructure {
         target.fSuffix = this.fSuffix;
         // Name: fAttributeList
         // Type: java.util.List
-        if (this.fAttributeList != null) {
-            final java.util.Iterator<blanco.anttask.valueobject.BlancoAntTaskAttributeStructure> iterator = this.fAttributeList.iterator();
-            for (; iterator.hasNext();) {
-                blanco.anttask.valueobject.BlancoAntTaskAttributeStructure loopSource = iterator.next();
-                blanco.anttask.valueobject.BlancoAntTaskAttributeStructure loopTarget = null;
-                // フィールド[generics]はサポート外の型[blanco.anttask.valueobject.BlancoAntTaskAttributeStructure]です。
-                target.fAttributeList.add(loopTarget);
-            }
-        }
+        // フィールド[fAttributeList]はサポート外の型[java.util.Listblanco.anttask.valueobject.BlancoAntTaskAttributeStructure]です。
     }
 }

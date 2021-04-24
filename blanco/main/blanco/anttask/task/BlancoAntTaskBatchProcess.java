@@ -61,6 +61,8 @@ public class BlancoAntTaskBatchProcess {
                 input.setTmpdir(arg.substring(8));
             } else if (arg.startsWith("-encoding=")) {
                 input.setEncoding(arg.substring(10));
+            } else if (arg.startsWith("-lineSeparator=")) {
+                input.setLineSeparator(arg.substring(15));
             } else if (arg.equals("-?") || arg.equals("-help")) {
                 usage();
                 System.exit(END_SUCCESS);
@@ -154,7 +156,7 @@ public class BlancoAntTaskBatchProcess {
      */
     public static final void usage() {
         System.out.println("BlancoAntTaskBatchProcess: Usage:");
-        System.out.println("  java blanco.anttask.task.BlancoAntTaskBatchProcess -verbose=値1 -metadir=値2 -targetdir=値3 -tmpdir=値4 -encoding=値5");
+        System.out.println("  java blanco.anttask.task.BlancoAntTaskBatchProcess -verbose=値1 -metadir=値2 -targetdir=値3 -tmpdir=値4 -encoding=値5 -lineSeparator=値6");
         System.out.println("    -verbose");
         System.out.println("      説明[verboseモードで動作させるかどうか。]");
         System.out.println("      型[真偽]");
@@ -174,6 +176,10 @@ public class BlancoAntTaskBatchProcess {
         System.out.println("    -encoding");
         System.out.println("      説明[自動生成するソースファイルの文字エンコーディングを指定します。]");
         System.out.println("      型[文字列]");
+        System.out.println("    -lineSeparator");
+        System.out.println("      説明[自動生成するソースコードの改行コードを、LF, CR, CRLFで指定します。]");
+        System.out.println("      型[文字列]");
+        System.out.println("      デフォルト値[LF]");
         System.out.println("    -? , -help");
         System.out.println("      説明[使い方を表示します。]");
     }

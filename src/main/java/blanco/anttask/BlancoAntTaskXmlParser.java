@@ -23,24 +23,24 @@ import blanco.xml.bind.valueobject.BlancoXmlDocument;
 import blanco.xml.bind.valueobject.BlancoXmlElement;
 
 /**
- * 「バッチ処理定義書」Excel様式から情報を抽出します。
+ * Extracts information from the "Batch Processing Definition Form" Excel format.
  * 
- * このクラスは、中間XMLファイルから情報抽出する機能を担います。
+ * This class is responsible for extracting information from intermediate XML files.
  * 
  * @author IGA Tosiki
  */
 public class BlancoAntTaskXmlParser {
     /**
-     * メッセージ定義。
+     * Defines a message.
      */
     protected final BlancoAntTaskMessage fMsg = new BlancoAntTaskMessage();
 
     /**
-     * 中間XMLファイルのXMLドキュメントをパースして、情報の配列を取得します。
+     * Parses an XML document in an intermediate XML file to get an array of information.
      * 
      * @param argMetaXmlSourceFile
-     *            中間XMLファイル。
-     * @return パースの結果得られた情報の配列。
+     *            An intermediate XML file.
+     * @return An array of information obtained as a result of parsing.
      */
     public BlancoAntTaskStructure[] parse(final File argMetaXmlSourceFile) {
         final BlancoXmlDocument documentMeta = new BlancoXmlUnmarshaller()
@@ -53,23 +53,23 @@ public class BlancoAntTaskXmlParser {
     }
 
     /**
-     * 中間XMLファイル形式のXMLドキュメントをパースして、バリューオブジェクト情報の配列を取得します。
+     * Parses an XML document in an intermediate XML file to get an array of value object information.
      * 
      * @param argXmlDocument
-     *            中間XMLファイルのXMLドキュメント。
-     * @return パースの結果得られたバリューオブジェクト情報の配列。
+     *            XML document of an intermediate XML file.
+     * @return An array of value object information obtained as a result of parsing.
      */
     public BlancoAntTaskStructure[] parse(final BlancoXmlDocument argXmlDocument) {
         final List<BlancoAntTaskStructure> listStructure = new ArrayList<BlancoAntTaskStructure>();
-        // ルートエレメントを取得します。
+        // Gets the root element.
         final BlancoXmlElement elementRoot = BlancoXmlBindingUtil
                 .getDocumentElement(argXmlDocument);
         if (elementRoot == null) {
-            // ルートエレメントが無い場合には処理中断します。
+            // The process is aborted if there is no root element.
             return null;
         }
 
-        // sheet(Excelシート)のリストを取得します。
+        // Gets a list of sheets (Excel sheets).
         final List<blanco.xml.bind.valueobject.BlancoXmlElement> listSheet = BlancoXmlBindingUtil
                 .getElementsByTagName(elementRoot, "sheet");
         final int sizeListSheet = listSheet.size();
@@ -78,7 +78,7 @@ public class BlancoAntTaskXmlParser {
 
             final BlancoAntTaskStructure structure = parseElementSheet(elementSheet);
             if (structure != null) {
-                // 得られた情報を記憶します。
+                // Memorize the obtained information.
                 listStructure.add(structure);
             }
         }
@@ -90,28 +90,29 @@ public class BlancoAntTaskXmlParser {
     }
 
     /**
-     * 中間XMLファイル形式の「sheet」XMLエレメントをパースして、バリューオブジェクト情報を取得します。
+     * Parses the "sheet" XML element in the intermediate XML file to get the value object information.
      * 
      * @param argElementSheet
-     *            中間XMLファイルの「sheet」XMLエレメント。
-     * @return パースの結果得られたバリューオブジェクト情報。「name」が見つからなかった場合には nullを戻します。
+     *            "sheet" XML element in the intermediate XML file.
+     * @return Value object information obtained as a result of parsing.
+     *           Null is returned if "name" is not found.
      */
     public BlancoAntTaskStructure parseElementSheet(
             final BlancoXmlElement argElementSheet) {
         final BlancoAntTaskStructure structure = new BlancoAntTaskStructure();
-        // 入力パラメータ情報を取得します。
+        // Gets the input parameter information.
 
         final List<blanco.xml.bind.valueobject.BlancoXmlElement> listCommon = BlancoXmlBindingUtil
                 .getElementsByTagName(argElementSheet, "blancoanttask-common");
         if (listCommon.size() == 0) {
-            // commonが無い場合にはスキップします。
+            // Skips if these is no common.
             return null;
         }
 
-        // 最初のアイテムのみ処理しています。
+        // Processes only the first item.
         final BlancoXmlElement elementCommon = listCommon.get(0);
 
-        // シートから詳細な情報を取得します。
+        // Gets detailed information from the sheet.
         structure.setName(BlancoXmlBindingUtil.getTextContent(elementCommon,
                 "taskName"));
         structure.setPackage(BlancoXmlBindingUtil.getTextContent(elementCommon,
@@ -122,7 +123,7 @@ public class BlancoAntTaskXmlParser {
         }
 
         if (BlancoStringUtil.null2Blank(structure.getPackage()).trim().length() == 0) {
-            throw new IllegalArgumentException("パッケージ名が指定されていません["
+            throw new IllegalArgumentException("Package name is not specified["
                     + structure.getName() + "]");
         }
 
@@ -142,7 +143,7 @@ public class BlancoAntTaskXmlParser {
             return null;
         }
 
-        // 一覧の内容を取得します。
+        // Gets the contents of the list.
         final List<blanco.xml.bind.valueobject.BlancoXmlElement> listField = BlancoXmlBindingUtil
                 .getElementsByTagName(elementAttributes, "attribute");
         for (int indexField = 0; indexField < listField.size(); indexField++) {
@@ -156,7 +157,7 @@ public class BlancoAntTaskXmlParser {
                     elementField, "attribute"));
             if (BlancoStringUtil.null2Blank(attributeStructure.getName())
                     .length() == 0) {
-                // attributeが指定されていない場合には処理しません。
+                // Skips if attribute is not specified.
                 continue;
             }
 
@@ -177,8 +178,8 @@ public class BlancoAntTaskXmlParser {
             if (attributeStructure.getRequire()) {
                 if (BlancoStringUtil
                         .null2Blank(attributeStructure.getDefault()).length() > 0) {
-                    // タスク名[{0}]、アトリビュート[{1}]において、[必須]と[デフォルト]が同時に指定されています。
-                    // しかし[必須]と[デフォルト]は排他的に、しかしいずれかは指定する必要があります。
+                    // In task_name[{0}] and attribute[{1}], [Required] and [Default] are specified at the same time.
+                    // However, [Required] and [Default] must be specified exclusively, and one of them must be specified.
                     throw new IllegalArgumentException(fMsg.getMbati001(
                             structure.getName(), attributeStructure.getName()));
                 }

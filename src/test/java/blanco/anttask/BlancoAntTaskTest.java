@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.io.IOException;
 
 /**
- * Java言語用の生成試験
+ * Generation test for Java.
  *
  * @author tueda
  */

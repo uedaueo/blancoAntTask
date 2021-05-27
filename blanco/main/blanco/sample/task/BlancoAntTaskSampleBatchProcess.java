@@ -223,7 +223,7 @@ public class BlancoAntTaskSampleBatchProcess {
         System.out.println("BlancoAntTaskSampleBatchProcess: Usage:");
         System.out.println("  java blanco.sample.task.BlancoAntTaskSampleBatchProcess -verbose=値1 -attr1=値2 -attr2=値3 -attr3=値4 -attr4=値5 -attr5=値6 -attr6=値7 -attr7=値8 -attr8=値9 -attr9=値10 -attr10=値11");
         System.out.println("    -verbose");
-        System.out.println("      説明[verboseモードで動作させるかどうか。]");
+        System.out.println("      説明[Whether to run in verbose mode.]");
         System.out.println("      型[真偽]");
         System.out.println("      デフォルト値[false]");
         System.out.println("    -attr1");

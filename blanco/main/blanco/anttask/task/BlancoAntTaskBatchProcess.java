@@ -158,7 +158,7 @@ public class BlancoAntTaskBatchProcess {
         System.out.println("BlancoAntTaskBatchProcess: Usage:");
         System.out.println("  java blanco.anttask.task.BlancoAntTaskBatchProcess -verbose=値1 -metadir=値2 -targetdir=値3 -tmpdir=値4 -encoding=値5 -lineSeparator=値6");
         System.out.println("    -verbose");
-        System.out.println("      説明[verboseモードで動作させるかどうか。]");
+        System.out.println("      説明[Whether to run in verbose mode.]");
         System.out.println("      型[真偽]");
         System.out.println("      デフォルト値[false]");
         System.out.println("    -metadir");

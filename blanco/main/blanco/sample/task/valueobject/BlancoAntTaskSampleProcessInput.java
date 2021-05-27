@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  */
 public class BlancoAntTaskSampleProcessInput {
     /**
-     * verboseモードで動作させるかどうか。
+     * Whether to run in verbose mode.
      *
      * フィールド: [verbose]。
      * デフォルト: [false]。
@@ -92,7 +92,7 @@ public class BlancoAntTaskSampleProcessInput {
     /**
      * フィールド [verbose] の値を設定します。
      *
-     * フィールドの説明: [verboseモードで動作させるかどうか。]。
+     * フィールドの説明: [Whether to run in verbose mode.]。
      *
      * @param argVerbose フィールド[verbose]に設定する値。
      */
@@ -103,7 +103,7 @@ public class BlancoAntTaskSampleProcessInput {
     /**
      * フィールド [verbose] の値を取得します。
      *
-     * フィールドの説明: [verboseモードで動作させるかどうか。]。
+     * フィールドの説明: [Whether to run in verbose mode.]。
      * デフォルト: [false]。
      *
      * @return フィールド[verbose]から取得した値。

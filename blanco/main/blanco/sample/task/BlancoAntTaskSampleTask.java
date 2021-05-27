@@ -428,10 +428,10 @@ public class BlancoAntTaskSampleTask extends Task {
 
         try {
             // 実際のAntタスクの主処理を実行します。
-            // この箇所でコンパイルエラーが発生する場合、BlancoAntTaskSampleProcessインタフェースを実装して blanco.sample.taskパッケージに BlancoAntTaskSampleProcessImplクラスを作成することにより解決できる場合があります。
+            // If you get a compile error at this point, You may be able to solve it by implementing a BlancoAntTaskSampleProcess interface and creating an BlancoAntTaskSampleProcessImpl class in package blanco.sample.task.
             final BlancoAntTaskSampleProcess proc = new BlancoAntTaskSampleProcessImpl();
             if (proc.execute(fInput) != BlancoAntTaskSampleBatchProcess.END_SUCCESS) {
-                throw new BuildException("タスクは異常終了しました。");
+                throw new BuildException("The task has terminated abnormally.");
             }
         } catch (IllegalArgumentException e) {
             if (getVerbose()) {

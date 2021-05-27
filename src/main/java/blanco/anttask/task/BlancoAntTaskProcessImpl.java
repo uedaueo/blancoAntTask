@@ -21,30 +21,30 @@ import blanco.anttask.message.BlancoAntTaskMessage;
 import blanco.anttask.task.valueobject.BlancoAntTaskProcessInput;
 
 /**
- * blancoAntTaskの処理。
+ * Process of blancoAntTask
  *
  * @author IGA Tosiki
  */
 public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
     /**
-     * メッセージ定義。
+     * Defines a message.
      */
     protected final BlancoAntTaskMessage fMsg = new BlancoAntTaskMessage();
 
     /**
-     * 具体的な処理内容を記述するためのメソッドです。
+     * The method for describing a specific process.
      *
-     * このメソッドに実際の処理内容を記述します。
+     * This method is used to describe the actual process.
      *
      * @param input
-     *            処理の入力パラメータ。
-     * @return 処理の終了コード。BlancoAntTaskBatchProcessクラスの END_SUCCESS,
-     *         END_ILLEGAL_ARGUMENT_EXCEPTION, END_IO_EXCEPTION, END_ERROR
-     *         のいずれかの値を戻します。
+     *            Input parameters for processing.
+     * @return Exit status of the process. 
+     *         Returns END_SUCCESS, END_ILLEGAL_ARGUMENT_EXCEPTION, END_IO_EXCEPTION, 
+     *           or END_ERROR of BlancoAntTaskBatchProcess class.
      * @throws IOException
-     *             入出力例外が発生した場合。
+     *            If an I/O exception occurs.
      * @throws IllegalArgumentException
-     *             入力値に不正が見つかった場合。
+     *            If an invalid input is found.
      */
     public int execute(BlancoAntTaskProcessInput input) throws IOException,
             IllegalArgumentException {
@@ -63,7 +63,7 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
             }
 
             /*
-             * 改行コードを決定します。
+             * Determines a newline character.
              */
             String LF = "\n";
             String CR = "\r";
@@ -99,7 +99,7 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
 
             final File[] fileTmp = blancoTmpAntTaskDirectory.listFiles();
             if (fileTmp == null) {
-                // 何かしらの理由によりファイル一覧の取得に失敗した場合。
+                // When failed to get a file list for some reason. 
                 throw new IllegalArgumentException(fMsg
                         .getMbata002(blancoTmpAntTaskDirectory
                                 .getAbsolutePath()));
@@ -114,7 +114,7 @@ public class BlancoAntTaskProcessImpl implements BlancoAntTaskProcess {
                 }
             }
         } catch (TransformerException e) {
-            throw new IOException("XML変換の過程で例外が発生しました: " + e.toString());
+            throw new IOException("An exception occurred during the XML conversion: " + e.toString());
         }
 
         return BlancoAntTaskBatchProcess.END_SUCCESS;

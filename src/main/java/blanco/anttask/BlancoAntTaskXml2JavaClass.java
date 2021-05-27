@@ -31,55 +31,55 @@ import blanco.commons.util.BlancoJavaSourceUtil;
 import blanco.commons.util.BlancoNameAdjuster;
 
 /**
- * 中間XMLファイル(メタ情報)からJavaソースコードを自動生成します。
+ * Automatically generates Java source code from intermediate XML files (meta-information).
  * 
- * 中間XMLファイルを入力してJavaクラス・ソースコードを自動生成します。 <br>
+ * Automatically generates Java class source code by inputting an intermediate XML file.
  * 
  * @author IGA Tosiki
  */
 public class BlancoAntTaskXml2JavaClass {
     /**
-     * リソースバンドル・オブジェクト。
+     * Resource bandle object.
      */
     protected final BlancoAntTaskResourceBundle fBundle = new BlancoAntTaskResourceBundle();
 
     /**
-     * 内部的に利用するblancoCg用ファクトリ。
+     * Factory for blancoCg to be used internally.
      */
     private BlancoCgObjectFactory fCgFactory = null;
 
     /**
-     * 内部的に利用するblancoCg用ソースファイル情報。
+     * Source file information for blancoCg to be used internally.
      */
     private BlancoCgSourceFile fCgSourceFile = null;
 
     /**
-     * 内部的に利用するblancoCg用クラス情報。
+     * Class information for blancoCg to be used internally.
      */
     private BlancoCgClass fCgClass = null;
 
     /**
-     * 自動生成するソースファイルの文字エンコーディング。
+     * Character encoding of auto-generated source files.
      */
     private String fEncoding = null;
 
     /**
-     * 自動生成するソースファイルの文字エンコーディングを指定します。
+     * Specifies the character encoding of auto-generated source files.
      * 
      * @param argEncoding
-     *            自動生成するソースファイルの文字エンコーディング。
+     *            Character encoding of the auto-generated source files.
      */
     public void setEncoding(final String argEncoding) {
         fEncoding = argEncoding;
     }
 
     /**
-     * 中間XMLファイルからJavaソースコードを生成します。
+     * Generates Java source code from intermediate XML files.
      * 
      * @param fileSource
-     *            中間XMLメタ入力ファイル
+     *            Intermediate XML meta-input file.
      * @param directoryTarget
-     *            ソースコード出力ディレクトリ
+     *            Output directory of the generated source code.
      */
     public void process(final File fileSource, final File directoryTarget) {
         final BlancoAntTaskStructure[] structures = new BlancoAntTaskXmlParser()
@@ -91,17 +91,17 @@ public class BlancoAntTaskXml2JavaClass {
     }
 
     /**
-     * 指定のシートの記述内容を展開します。
+     * Expands a description of the specified sheet.
      * 
      * @param argStructure
-     *            タスクの構造。
+     *            Task structure.
      * @param directoryTarget
-     *            出力先ディレクトリ
+     *            Output directory.
      */
     public void structure2Source(final BlancoAntTaskStructure argStructure,
             final File directoryTarget) {
 
-        // 試験的にblancoBatchProcessを組み込み。
+        // Embedded blancoBatchProcess on a trial basis.
         final BlancoBatchProcessStructure batchProcessStructure = new BlancoBatchProcessStructure();
         batchProcessStructure.setName(BlancoNameAdjuster
                 .toClassName(argStructure.getName()));
@@ -115,7 +115,7 @@ public class BlancoAntTaskXml2JavaClass {
             inputItem.setType("blanco:boolean");
             inputItem.setRequire(false);
             inputItem.setDefault("false");
-            inputItem.setDescription("verboseモードで動作させるかどうか。");
+            inputItem.setDescription("Whether to run in verbose mode.");
             batchProcessStructure.getInputItemList().add(inputItem);
         }
         for (int indexArg = 0; indexArg < argStructure.getAttributeList()
@@ -140,11 +140,11 @@ public class BlancoAntTaskXml2JavaClass {
             xml2source.structure2Source(batchProcessStructure, null, "java",
                     directoryTarget);
         } catch (IOException e) {
-            // TODO 自動生成された catch ブロック
+            // TODO Auto-generated catch block.
             e.printStackTrace();
         }
 
-        // 従来と互換性を持たせるため、/mainサブフォルダに出力します。
+        // To make it compatible with the previous version, output to the /main subfolder.
         final File fileBlancoMain = new File(directoryTarget.getAbsolutePath()
                 + "/main");
 
@@ -371,7 +371,7 @@ public class BlancoAntTaskXml2JavaClass {
                     break;
                 }
                 {
-                    // 必須項目への値の設定を確認しました。
+                    // Confirmed setting of values to required fields.
                     methodSet.getLineList().add(
                             "fIsField"
                                     + BlancoNameAdjuster
@@ -513,12 +513,11 @@ public class BlancoAntTaskXml2JavaClass {
 
             listLine.add("try {");
             listLine.add(fBundle.getMethodExecuteLine04());
-            listLine.add("// この箇所でコンパイルエラーが発生する場合、"
+            listLine.add("// If you get a compile error at this point, "
+                    + "You may be able to solve it by implementing a "
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
-                    + "Processインタフェースを実装して " + argStructure.getPackage()
-                    + "パッケージに "
-                    + BlancoNameAdjuster.toClassName(argStructure.getName())
-                    + "ProcessImplクラスを作成することにより解決できる場合があります。");
+                    + "Process interface and creating an " + BlancoNameAdjuster.toClassName(argStructure.getName())
+                    + "ProcessImpl class in package " + argStructure.getPackage() + ".");
             listLine.add("final "
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
                     + "Process proc = new "
@@ -527,7 +526,7 @@ public class BlancoAntTaskXml2JavaClass {
             listLine.add("if (proc.execute(fInput) != "
                     + BlancoNameAdjuster.toClassName(argStructure.getName())
                     + "BatchProcess.END_SUCCESS) {");
-            listLine.add("throw new BuildException(\"タスクは異常終了しました。\");");
+            listLine.add("throw new BuildException(\"The task has terminated abnormally.\");");
             listLine.add("}");
             listLine.add("} catch (IllegalArgumentException e) {");
             listLine.add("if (getVerbose()) {");

@@ -209,7 +209,7 @@ public class BlancoAntTaskTask extends Task {
     public final void execute() throws BuildException {
         System.out.println("BlancoAntTaskTask begin.");
 
-        // 項目番号[1]、アトリビュート[metadir]は必須入力です。入力チェックを行います。
+        // 項目番号[1], アトリビュート[metadir]は必須入力です。入力チェックを行います。
         if (fIsFieldMetadirProcessed == false) {
             throw new BuildException("必須アトリビュート[metadir]が設定されていません。処理を中断します。");
         }

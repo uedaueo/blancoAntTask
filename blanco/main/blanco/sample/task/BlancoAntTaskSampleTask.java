@@ -391,23 +391,23 @@ public class BlancoAntTaskSampleTask extends Task {
     public final void execute() throws BuildException {
         System.out.println("BlancoAntTaskSampleTask begin.");
 
-        // 項目番号[1]、アトリビュート[attr1]は必須入力です。入力チェックを行います。
+        // 項目番号[1], アトリビュート[attr1]は必須入力です。入力チェックを行います。
         if (fIsFieldAttr1Processed == false) {
             throw new BuildException("必須アトリビュート[attr1]が設定されていません。処理を中断します。");
         }
-        // 項目番号[3]、アトリビュート[attr3]は必須入力です。入力チェックを行います。
+        // 項目番号[3], アトリビュート[attr3]は必須入力です。入力チェックを行います。
         if (fIsFieldAttr3Processed == false) {
             throw new BuildException("必須アトリビュート[attr3]が設定されていません。処理を中断します。");
         }
-        // 項目番号[5]、アトリビュート[attr5]は必須入力です。入力チェックを行います。
+        // 項目番号[5], アトリビュート[attr5]は必須入力です。入力チェックを行います。
         if (fIsFieldAttr5Processed == false) {
             throw new BuildException("必須アトリビュート[attr5]が設定されていません。処理を中断します。");
         }
-        // 項目番号[7]、アトリビュート[attr7]は必須入力です。入力チェックを行います。
+        // 項目番号[7], アトリビュート[attr7]は必須入力です。入力チェックを行います。
         if (fIsFieldAttr7Processed == false) {
             throw new BuildException("必須アトリビュート[attr7]が設定されていません。処理を中断します。");
         }
-        // 項目番号[9]、アトリビュート[attr9]は必須入力です。入力チェックを行います。
+        // 項目番号[9], アトリビュート[attr9]は必須入力です。入力チェックを行います。
         if (fIsFieldAttr9Processed == false) {
             throw new BuildException("必須アトリビュート[attr9]が設定されていません。処理を中断します。");
         }

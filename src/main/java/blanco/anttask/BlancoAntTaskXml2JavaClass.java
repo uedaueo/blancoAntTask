@@ -483,7 +483,7 @@ public class BlancoAntTaskXml2JavaClass {
 
                 listLine.add(fBundle.getMethodExecuteLine01((attributeStructure
                         .getNo() == null ? "" : fBundle.getItemNo() + "["
-                        + attributeStructure.getNo() + "]、"),
+                        + attributeStructure.getNo() + "], "),
                         attributeStructure.getName()));
 
                 listLine.add("if (fIsField"
